@@ -1,0 +1,40 @@
+Week,Date,#,Lecture,Readings,Homework,Discussion,Lab
+1,Mon 1/3,1,Introduction,[CIT 1.2-1.3](https://inferentialthinking.com/chapters/01/2/why-data-science.html),,,
+,Wed 1/5,2,Association and Causality,[CIT 2](https://inferentialthinking.com/chapters/02/causality-and-experiments.html),,,
+,Fri 1/7,3,Expressions and Data Types,[Notes 1-6](https://notes.dsc10.com/01-getting_started/tools.html),,,
+2,Mon 1/10,4,Arrays and DataFrames,[Notes 7-8](https://notes.dsc10.com/02-data_sets/arrays.html),,1. Python Basics and Causality,
+,Tue 1/11,,,,,,1. Expressions and Data Types (due 1/11)
+,Wed 1/12,5,"Accessing, Sorting, and Querying",[Notes 9-10](https://notes.dsc10.com/02-data_sets/accessing.html),,,
+,Fri 1/14,6,More Queries and GroupBy,[Notes 10-11](https://notes.dsc10.com/02-data_sets/querying.html),1. Causality and Basic Python (due 1/15),,
+3,Mon 1/17,,No Lecture (MLK Day),,,2. Arrays and DataFrames (Recording Only),
+,Tue 1/18,,,,,,2. Arrays and DataFrames (due 1/18)
+,Wed 1/19,7,Data Visualization,[Notes 14-17](https://notes.dsc10.com/03-visualization/intro.html),,,
+,Fri 1/21,8,Histograms and Overlaid Plots,[Notes 14-17](https://notes.dsc10.com/03-visualization/intro.html),2. Arrays and DataFrames (due 1/22),,
+4,Mon 1/24,9,Functions and Apply,[Note 12](https://notes.dsc10.com/02-data_sets/apply.html),,3. Plotting and Functions,
+,Tue 1/25,,,,,,3. Data Visualization and Python Functions (due 1/25)
+,Wed 1/26,10,"Grouping with Subgroups, Merge","[Note 11.4](https://notes.dsc10.com/02-data_sets/groupby.html#subgroups), [13](https://notes.dsc10.com/02-data_sets/merging.html)",,,
+,Fri 1/28,11,"Booleans and Conditionals, Iteration",[CIT 9.1-9.2](https://inferentialthinking.com/chapters/09/Randomness.html),3. Data Visualization and Python Functions (due 1/29),,
+5,Mon 1/31,12,Probability,[Note 18](https://notes.dsc10.com/04-probability_and_simulation/probability_and_simulation.html),,"4. Merge, Conditionals, and Iteration",
+,Tue 2/1,,,,,,"4. DataFrames, Control Flow, and Probability (due 2/1)"
+,Wed 2/2,13,Simulation,[Note 18](https://notes.dsc10.com/04-probability_and_simulation/probability_and_simulation.html),,,
+,Fri 2/4,14,Distributions and Sampling,[Notes 19-20](https://notes.dsc10.com/04-probability_and_simulation/1_populations_and_samples.html),"4. DataFrames, Control Flow, and Probability (due 2/5)",,
+6,Mon 2/7,15,Hypothesis Testing,[Note 21](https://notes.dsc10.com/05-hypothesis_testing/1_hypothesis_tests.html),,5. Midterm Review,
+,Wed 2/9,,Midterm Exam (in class),,,,
+,Fri 2/11,16,"Hypothesis Testing, Continued",[Note 21](https://notes.dsc10.com/05-hypothesis_testing/1_hypothesis_tests.html),Midterm Project (due 2/12),,
+7,Mon 2/14,17,Permutation Testing,[Note 22](https://notes.dsc10.com/05-hypothesis_testing/2_permutation_tests.html),,6. Hypothesis Testing,
+,Tue 2/15,,,,,,"5. Simulation, Sampling, and Hypothesis Testing (due 2/15)"
+,Wed 2/16,18,"Causality, Bootstrapping",[Note 23](https://notes.dsc10.com/06-estimation/1_bootstrap.html),,,
+,Fri 2/18,19,Percentiles and Confidence Intervals,[Notes 24-25](https://notes.dsc10.com/06-estimation/2_confidence_intervals.html),"5. Simulation, Sampling, and Hypothesis Testing (due 2/19)",,
+8,Mon 2/21,,No Lecture (Presidents' Day),,,7. Permutation Testing (Recording Only),
+,Tue 2/22,,,,,,6. Resampling and the Bootstrap (due 2/22)
+,Wed 2/23,20,"Confidence Intervals, Center and Spread",[CIT 14.1-14.2](https://inferentialthinking.com/chapters/14/Why_the_Mean_Matters.html),,,
+,Fri 2/25,21,Normal Curve,[CIT 14.3-14.4](https://inferentialthinking.com/chapters/14/3/SD_and_the_Normal_Curve.html),"6. Permutation Testing, Percentiles, and Bootstrapping (due 2/26)",,
+9,Mon 2/28,22,Central Limit Theorem,[CIT 14.4-14.5](https://inferentialthinking.com/chapters/14/4/Central_Limit_Theorem.html),,8. Bootstrapping and Confidence Intervals (add a bit about spread),
+,Tue 3/1,,,,,,"7. Center, Spread, and the Normal Distribution (due 3/1)"
+,Wed 3/2,23,Experiment Design,[CIT 14.6](https://inferentialthinking.com/chapters/14/6/Choosing_a_Sample_Size.html),,,
+,Fri 3/4,24,Prediction and Correlation,[CIT 15.1-15.2](https://inferentialthinking.com/chapters/15/Prediction.html),"7. Confidence Intervals, Normal Distributions, and the CLT",,
+10,Mon 3/7,25,Regression and Least Squares,[CIT 15.2-15.3](https://inferentialthinking.com/chapters/15/2/Regression_Line.html),,9. Normal Curve and CLT,
+,Tue 3/8,,,,,,8. Regression (due 3/8)
+,Wed 3/9,26,Review,,Final Project (due 3/9),10. Review Discussion,
+,Fri 3/11,27,Conclusion,,,,
+,Sat 3/12,,Final Exam (3-6PM),,,,
