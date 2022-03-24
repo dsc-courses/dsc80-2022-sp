@@ -8,12 +8,15 @@ import os
 import sys
 import numpy as np
 
-df = pd.read_csv('Lecture Schedule – DSC 10, Winter 2022 - wi22 final.csv')
+df = pd.read_csv('Schedule – DSC 80, Spring 2022 - sp22 schedule.csv')
 
 df['Week'] = df['Week'].fillna(method = 'ffill').astype(int)
 df['#'] = df['#'].fillna(0).astype(int)
 df['Lab'] = df['Lab'].astype(str)
-df['Homework'] = df['Homework'].astype(str)
+df['Lecture'] = df['Lecture'].fillna(0)
+
+print(df)
+# df['Homework'] = df['Homework'].astype(str)
 
 # df = df.iloc[:-2]
 
@@ -73,35 +76,34 @@ def write_week(i, dest = '../_modules', write = True):
                 '''
 
         # Exam or lab
-        elif lec_num == 0:
-            if str(week.loc[j, 'Lab']) != 'nan':          
-                lab_num, lab_name = week.loc[j, 'Lab'].split('. ')
-                date_formatted = date_conv(week.loc[j, 'Date'])
-                outstr += f"""
+        if str(week.loc[j, 'Lab']) != 'nan':          
+            lab_num, lab_name = week.loc[j, 'Lab'].split('. ')
+            date_formatted = date_conv(week.loc[j, 'Date'])
+            outstr += f"""
           "**Lab {lab_num}**{{: .label .label-lab }} **{lab_name}**":"""
         
-            elif 'Exam' in week.loc[j, 'Lecture']:
-                outstr += f"""
+        if 'Exam' in str(week.loc[j, 'Lecture']):
+            outstr += f"""
           "**Exam**{{: .label .label-exam }} **{week.loc[j, 'Lecture']}**":"""
             
-            else:
-                outstr += f"""
-          "{week.loc[j, 'Lecture']}":"""
+        # else:
+        #     outstr += f"""
+        # "{week.loc[j, 'Lecture']}":"""
             
-        if str(week.loc[j, 'Homework']) != 'nan':
-            if 'Project' in week.loc[j, 'Homework']:
-                outstr += f"""
-          "**PROJ**{{: .label .label-proj }} **{week.loc[j, 'Homework']}**":"""
-            else:
-                hw_num, hw_name = week.loc[j, 'Homework'].split('. ', 1)
-                date_formatted = date_conv(week.loc[j, 'Date'])
-                outstr += f"""
-          "**HW {hw_num}**{{: .label .label-hw }} **{hw_name}**":"""
+        # if str(week.loc[j, 'Homework']) != 'nan':
+        #     if 'Project' in week.loc[j, 'Homework']:
+        #         outstr += f"""
+        #   "**PROJ**{{: .label .label-proj }} **{week.loc[j, 'Homework']}**":"""
+        #     else:
+        #         hw_num, hw_name = week.loc[j, 'Homework'].split('. ', 1)
+        #         date_formatted = date_conv(week.loc[j, 'Date'])
+        #         outstr += f"""
+        #   "**HW {hw_num}**{{: .label .label-hw }} **{hw_name}**":"""
 
         if str(week.loc[j, 'Discussion']) != 'nan':
             disc_num, disc_name = week.loc[j, 'Discussion'].split('. ', 1)
             outstr += f"""
-          "**DIS {disc_num}**{{: .label .label-disc }} {disc_name}":"""
+          "**DIS {disc_num}**{{: .label .label-disc }} **{disc_name}**":"""
     
     outstr += "\n---"
     

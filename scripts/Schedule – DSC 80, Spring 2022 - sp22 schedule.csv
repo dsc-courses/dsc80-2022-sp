@@ -1,0 +1,43 @@
+Week,Date,#,Lecture,Readings,Lab,Discussion,Projects
+1,Mon 3/28,1,"Introduction, Data Science Lifecycle",[Ch. 1](https://notes.dsc80.com/content/01/introduction.html),,,
+,Wed 3/30,2,Pandas,[Ch. 2](https://notes.dsc80.com/content/02/introduction.html),,1. Introduction (due 4/2),
+,Thu 3/31,,,,,,
+,Fri 4/1,3,More Pandas,"[Ch. 2](https://notes.dsc80.com/content/02/introduction.html), [3](https://notes.dsc80.com/content/03/introduction.html)",,,
+2,Mon 4/4,4,Messy Data,"[Ch. 3](https://notes.dsc80.com/content/03/introduction.html), [4.1-4.2](https://notes.dsc80.com/content/04/introduction.html)",1. Introduction (due 4/4),,
+,Wed 4/6,5,"More Messy Data, Hypothesis Testing","[Ch. 4](https://notes.dsc80.com/content/04/introduction.html), [CIT 11](https://inferentialthinking.com/chapters/11/Testing_Hypotheses.html)",,2. Pandas (due 4/9),
+,Thu 4/7,,,,,,Project 1 Checkpoint
+,Fri 4/8,6,Hypothesis Testing,[CIT 11](https://inferentialthinking.com/chapters/11/Testing_Hypotheses.html),,,
+3,Mon 4/11,7,Data Granularity,[Ch. 5.1-5.2](https://notes.dsc80.com/content/05/introduction.html),2. Pandas (due 4/11),,
+,Wed 4/13,8,Combining Data,[Ch. 5.3](https://notes.dsc80.com/content/05/appending-data.html),,3. Visualization (due 4/16),
+,Thu 4/14,,,,,,Project 1 Due
+,Fri 4/15,9,More Combining Data,[Ch. 5.4](https://notes.dsc80.com/content/05/joining-data.html),,,
+4,Mon 4/18,10,Permutation Testing,"[Ch. 5.5](https://notes.dsc80.com/content/05/permutation-tests.html), [CIT 12](https://inferentialthinking.com/chapters/12/Comparing_Two_Samples.html)",3. Hypothesis Testing and Combining Data (due 4/18),,
+,Wed 4/20,11,"More Permutation Testing, Missing Values",[Ch. 6.1-6.2](https://notes.dsc80.com/content/06/introduction.html),,4. Combining Data (due 4/23),
+,Thu 4/21,,,,,,Project 2 Checkpoint
+,Fri 4/22,12,More Missing Values,[Ch. 6.3-6.5](https://notes.dsc80.com/content/06/handling-missing-data.html),,,
+5,Mon 4/25,13,Imputation,[Ch. 6.3-6.5](https://notes.dsc80.com/content/06/handling-missing-data.html),4. Permutation Testing and Missing Values (due 4/25),,
+,Wed 4/27,,Midterm Exam (during lecture),,,,
+,Thu 4/28,,,,,,Project 2 Due (saturday)
+,Fri 4/29,14,HTML,[Ch. 7.1-7.2](https://notes.dsc80.com/content/07/introduction.html),,,
+6,Mon 5/2,15,More HTML,[Ch. 7.3](https://notes.dsc80.com/content/07/html.html),5. Imputation and Scraping (due 5/2),,
+,Wed 5/4,16,Regular Expressions,"[Ch. 7.3](https://notes.dsc80.com/content/07/html.html), [8.1](https://notes.dsc80.com/content/08/patterns.html)",,5. Scraping and Regex (due 5/7),
+,Thu 5/5,,,,,,
+,Fri 5/6,17,More Regular Expressions and Text,[Ch. 8.1-8.2](https://notes.dsc80.com/content/08/introduction.html),,,
+7,Mon 5/9,18,Natural Language Processing,[Ch. 8.1-8.2](https://notes.dsc80.com/content/08/introduction.html),6. HTML (due 5/9),,
+,Wed 5/11,19,Feature Engineering,[Ch. 9.1](https://notes.dsc80.com/content/09/features.html),,6. Theoretical Foundations (due 5/15),
+,Thu 5/12,,,,,,Project 3 Due
+,Fri 5/13,20,Feature Engineering and Modeling,"[Ch. 9.2](https://notes.dsc80.com/content/09/data-pipelines.html), [10.1](https://notes.dsc80.com/content/10/intro-modeling.html)",,,
+8,Mon 5/16,21,Pipelines,[Ch. 10.2](https://notes.dsc80.com/content/10/model-building.html),7. Regular Expressions (due 5/16),,
+,Wed 5/18,22,Bias and Variance,[Ch. 11.1-11.2](https://notes.dsc80.com/content/11/introduction.html),,7. Features and Pipelines (due 5/21),
+,Thu 5/19,,,,,,Project 4 Checkpoint
+,Fri 5/20,23,More Bias and Variance,[Ch. 11.1-11.2](https://notes.dsc80.com/content/11/introduction.html),,,
+9,Mon 5/23,24,Examples,,8. Feature Engineering (due 5/23),,
+,Wed 5/25,25,Model Evaluation,,,,
+,Thu 5/26,,,,,,Project 4 Due
+,Fri 5/27,26,More Model Evaluation,,,,
+10,Mon 5/30,,N/A (Memorial Day),,9. Pipelines (due 5/30),,
+,Wed 6/1,27,Review,,,8. Review,
+,Thu 6/2,,,,,,
+,Fri 6/3,28,Conclusion,,,,
+,Sat 6/4,,Final Exam,,,,
+11,Thu 6/9,,,,,,Project 5 Due

@@ -29,13 +29,15 @@ heading_anchors: true
 permalink: pretty
 aux_links:
   Course Notes:
-    - 'https://afraenkel.github.io/practical-data-science/introduction/'
+    - 'https://notes.dsc80.com/'
   GitHub:
     - 'https://github.com/dsc-courses/dsc80-2022-sp/'
-  # Campuswire:
-  #   - '#'
+  Campuswire:
+    - 'https://campuswire.com/c/G325FA25B/feed'
   Gradescope:
     - 'https://www.gradescope.com/courses/379137'
+  DataHub:
+    - 'https://datahub.ucsd.edu'
 footer_content:
 
 # Collections for website data
