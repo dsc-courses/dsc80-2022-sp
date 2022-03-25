@@ -316,7 +316,7 @@ The UCSD Policy on Integrity of Scholarship and this syllabus list some of the s
 In DSC 80, you can read books, surf the web, talk to your friends and the DSC 80 staff to get help understanding the concepts you need to know to complete your assignments. However, all code must be written by you (or, in the instance of projects, together with your pair programming partner).  
 
 The following activities are considered cheating and are not allowed in DSC 80 (not an exhaustive list):
-- Using or submitting code acquired from other students (except in the instance of projects, your pair programming partner), the web, or any other resource not officially sanctioned by this course
+- Using or submitting code acquired from other students (except from your pair programming partner during projects), the web, or any other resource not officially sanctioned by this course
 - Posting your code online, including on Campuswire, unless privately to instructors only
 - Having any other person complete any part of your assignment on your behalf
 - Completing an assignment on behalf of someone else

@@ -224,7 +224,7 @@ within JupyterLab, you can:
 -   Use a Python console
 -   Run Jupyter notebooks
 -   Use a terminal (e.g. to pull git repos)
--   Develop python code in .py files
+-   Develop Python code in .py files
 
 ### Git
 
