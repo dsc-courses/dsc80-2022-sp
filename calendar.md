@@ -9,7 +9,7 @@ nav_order: 3
 
 ### Lectures and Discussions (<a style="color:blue; text-decoration: none">blue</a>)
 
-Lectures are held in **Center Hall 109 📍**, and discussions are in held in **Pepper Canyon Hall 122 📍**. You may join all lectures and discussions remotely via Zoom by clicking the "Zoom Link" button below.
+Lectures are held in **Center Hall 109 📍**, and discussions are in held in **Pepper Canyon Hall 122 📍**. You may join all lectures and discussions remotely via Zoom by clicking the "Zoom Link" button below, though in-person attendance is encouraged.
 
 ### In-Person Office Hours (<a style="color:chocolate; text-decoration: none">orange</a>)
 

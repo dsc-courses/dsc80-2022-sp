@@ -26,7 +26,7 @@ There has been a lot written about how to set up a Python environment, so we won
 
 ---
 
-## Working Locally
+## Working Locally (Recommended)
 
 Working *locally* simply refers to developing code using software
 installed on your own machine. For this class, the software you\'ll need
@@ -91,8 +91,8 @@ Every time you work on DSC 80, activate this environment by running
 ### Git
 
 All of our course materials, including your assignments, are hosted on
-GitHub in [this Git repository](https://github.com/dsc-courses/dsc80-2022-sp). This means that you'll need to download
-[Git](https://git-scm.com/) and use in order to work with the course
+GitHub in [this Git repository](https://github.com/dsc-courses/dsc80-2022-sp). This means that you'll need to download and use
+[Git](https://git-scm.com/) in order to work with the course
 materials.
 
 Git is a *version control system*. In short, it is used to keep track of
@@ -120,10 +120,14 @@ your assignments: The python files should be developed with an IDE (for
 syntax highlighting and running doctests) and the data/results should be
 analyzed/presented in Jupyter Notebooks. Below is an incomplete list of
 IDEs you might want to try. For more information about them, feel free
-to ask me!
+to ask the course staff.
+
+If you're curious, Suraj uses VSCode to edit .py files and the vanilla Jupyter environment to edit notebooks.
 
 -   The [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) text
-    editor: see above. A nice combination with notebooks.
+    editor: see [below](http://localhost:4000/tech_support/#jupyterlab). Can be used to edit both notebooks and .py files.
+
+-   [VSCode](https://code.visualstudio.com/): Microsoft Visual Studio Code. Currently very popular, and can also be used to edit both notebooks and .py files.
 
 -   [sublime](https://www.sublimetext.com/): A favorite text editor of
     hackers, famous for its multiple cursors. A good, general-purpose
@@ -135,11 +139,6 @@ to ask me!
 -   [PyCharm (IntelliJ)](https://www.jetbrains.com/pycharm/): Those who
     feel at home coding Java. Can only work locally.
 
--   [VSCode](https://code.visualstudio.com/): Microsoft Visual Studio
-    Code \-- the trendy IDE of 2021. Might be *too much* for the small
-    projects we\'re working on, like using a sledgehammer to drive in a
-    thumbtack.
-
 -   [nano](https://www.nano-editor.org/): available on most unix
     commandlines (e.g. DataHub Terminal). If you use this for more than
     changing a word or two, you\'ll hate your life.
@@ -147,15 +146,15 @@ to ask me!
 -   [(neo)vim](https://neovim.io/): lightweight, productive text-editor
     that might be the most efficient way to edit text, if you can ever
     learn how to use it. Beware opening vim, as you may never figure out
-    how to quit (literally). Justin\'s text editor of choice.
+    how to quit (literally). Justin Eldridge\'s text editor of choice.
 
 -   [emacs](https://www.gnu.org/software/emacs/): A text editor for
     those who prefer a life of endless toil. Endlessly customizable, it
     promises everything, but you're never good enough to deliver. Its
     keyboard shortcuts are guaranteed to give you carpal tunnel.
-    Aaron\'s text editor of choice.
+    Aaron Fraenkel\'s text editor of choice.
 
-## Working Remotely (DataHub)
+## Working Remotely via DataHub
 
 Working *remotely* means using an environment that someone else set up
 for you on a computer far, far away, usually through the browser. This
@@ -167,8 +166,8 @@ good a time as any.
 
 There are servers available to use at
 [datahub.ucsd.edu](datahub.ucsd.edu). These are a lot like the
-jupyterhub servers that you used in DSC 10, however they are customized
-for this course. After logging in with your ucsd account, you will be
+DataHub servers that you used in DSC 10, however they are customized
+for this course. After logging in with your UCSD account, you will be
 taken the familiar juptyer landing page. The server you are logged into
 has \~4GB of RAM available, and has Python with all the necessary
 packages.
@@ -182,7 +181,7 @@ hours or less, but they can prevent you from working on your assignment.
 Since we do not manage DataHub, we cannot make any guarantees about its
 availability. DataHub crashes that prevent you from turning in or
 working on your assignment near the deadline are typically handled via
-the usual [slip day](./syllabus.html#slip-days) mechanism. If DataHub
+the usual [slip day](../syllabus) mechanism. If DataHub
 has been down for a long time (more than 24 hours), let us know and
 we\'ll consider a blanket extension -- though this has very rarely
 (never?) happened.
@@ -194,7 +193,7 @@ reserve in case the server crashes.
 
 ### Installing or Updating Python Packages
 
-To update a package (e.g. pandas) on DataHub, you\'ll need to use the
+To update a package (e.g. `pandas`) on DataHub, you\'ll need to use the
 command line. To do this, open "New \> Terminal" and type:
 
 `pip install --user --upgrade pandas`
@@ -214,30 +213,26 @@ the url should read something like:
 `https://datahub.ucsd.edu/user/USER/tree`
 
 You can access the IDE (integrate development environment) by changing
-\"tree\" to \"lab\". This brings up jupyterlab. The url should look
+\"tree\" to \"lab\". This brings up JupyterLab. The url should look
 something like this:
 
 `https://datahub.ucsd.edu/user/USER/lab`
 
 For more information on this IDE, you can see read about it here. From
-within jupyterlab, you can:
+within JupyterLab, you can:
 
--   use a python console
--   run jupyter notebooks
--   use a terminal (e.g. to pull git repos)
--   develop python code in .py files.
+-   Use a Python console
+-   Run Jupyter notebooks
+-   Use a terminal (e.g. to pull git repos)
+-   Develop python code in .py files
 
-### Git {#git_1}
+### Git
 
-Using DataHub Servers will require you to pull down HW assignments from
-GitHub using the command-line (manually uploading to the servers is very
-cumbersome!) To do this, open "new \> terminal" and, to get the course
-repository for the first time, type:
-`git clone https://github.com/dsc-courses/dsc80-2021-fa` Then, open up
-the file-tree in the original Jupyter tab, and you should see all the
+Whether you work locally or use DataHub, you'll need to pull assignments from GitHub. If you work on DataHub, you'll **have** to pull from GitHub using the command-line. To do this, open "New \> Terminal" and, to get the course repository for the first time, type:
+
+`git clone https://github.com/dsc-courses/dsc80-2022-sp` 
+
+Then, open up the file-tree in the original Jupyter tab, and you should see all the
 course files now there. If you have already cloned the repository, and
 just want to get the latest files, type `git pull` and you should see
 the updated files.
-:::
-:::
-:::
