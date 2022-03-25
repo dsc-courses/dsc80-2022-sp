@@ -88,6 +88,8 @@ beautifulsoup4==4.10.0
 Every time you work on DSC 80, activate this environment by running
 `conda activate dsc80` in your terminal.
 
+To open a Jupyter Notebook, use the `jupyter notebook` command in your terminal. If you get an error saying that command is not defined, **after** you've activated the `dsc80` conda environment for the first time, run `conda install jupyter`.
+
 ### Git
 
 All of our course materials, including your assignments, are hosted on
