@@ -230,10 +230,12 @@ Here is how we'll compute your grade:
 | --- | --- | --- |
 | Labs | 25% | 3.125% per lab, lowest dropped |
 | Projects | 30% | 6% per project, no drops |
-| Project Checkpoints | 5% | 1% per project, no drops |
+| Project Checkpoints | 5% | 1% per project, no drops* |
 | Midterm Exam | 15% | see the Redemption Policy above |
 | Final Exam | 25% | |
 | Discussions | 2% (extra credit) | |
+
+*Since Projects 3 and 5 do not have checkpoints, everyone who submits Projects 3 and 5 will automatically receive the 1% checkpoint credit.
 
 ### Late Policy, Slip Days, and Drops
 
