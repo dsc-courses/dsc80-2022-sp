@@ -95,7 +95,7 @@ You can attend lecture in two ways:
 - By attending in-person at **Center Hall 109 📍**
 - By attending remotely via Zoom (see the course homepage or Calendar for the link)
 
-You can attend either lecture section, but if (physical) space fills up, priority will be given to students officially enrolled in that section. Attendance is not required, **though you are encouraged to attend in-person if you are able to**. Lectures will be podcasted.
+**Anyone can attend either lecture section**, but if (physical) space fills up, priority will be given to students officially enrolled in that section. Attendance is not required, **though you are encouraged to attend in-person if you are able to**. Lectures will be podcasted.
 
 Lecture notebooks will be your main resource in this class. You can access them, along with all course materials, by pulling from the course GitHub repository, [github.com/dsc-courses/dsc80-2022-sp](https://github.com/dsc-courses/dsc80-2022-sp/). We will also link HTML previews of each lecture notebook from the course homepage.
 
@@ -111,7 +111,7 @@ You can attend discussion in two ways:
 - By attending in-person at **Pepper Canyon Hall 122 📍**
 - By attending remotely via Zoom (see the course homepage or Calendar for the link)
 
-Attendance is recommended, but not required. Discussion sections will be
+**Anyone can attend either discussion section**. Attendance is recommended, but not required. Discussion sections will be
 podcasted, but the nature of discussion section (they usually involve a
 large amount of groupwork) means that **the podcasted discussion might not
 be as useful as in-person attendance**.
