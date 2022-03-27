@@ -9,11 +9,11 @@ nav_order: 3
 
 ### Lectures and Discussions (<a style="color:blue; text-decoration: none">blue</a>)
 
-Lectures are held in **Center Hall 109 📍**, and discussions are in held in **Pepper Canyon Hall 122 📍**. You may join all lectures and discussions remotely via Zoom by clicking the "Zoom Link" button below, though in-person attendance is encouraged.
+Lectures are held in **Center Hall 109 📍 ([map](https://map.concept3d.com/?id=1005#!m/163044))**, and discussions are in held in **Pepper Canyon Hall 122 📍 ([map](https://map.concept3d.com/?id=1005#!m/246320))**. You may join all lectures and discussions remotely via Zoom by clicking the "Zoom Link" button below, though in-person attendance is encouraged.
 
 ### In-Person Office Hours (<a style="color:chocolate; text-decoration: none">orange</a>)
 
-Most office hours are held in-person (shown in orange in the calendar below, starting with [IP], which stands for "in-person"). These are held on the second floor of the east wing of the San Diego Supercomputer Center ([map](https://g.page/SDSC_UCSanDiego?share)). Enter SDSC from the main entrance on Hopkins Drive, take the elevator up to the second floor, turn left at the kitchen, and meet in the common area. You will need a code to enter the building; the code is TBD. Make sure to hit the # key after typing in the code.
+Most office hours are held in-person (shown in orange in the calendar below, starting with [IP], which stands for "in-person"). These are held on the second floor of the east wing of the **San Diego Supercomputer Center 📍 ([map](https://map.concept3d.com/?id=1005#!m/165141))**. Enter SDSC from the main entrance on Hopkins Drive, take the elevator up to the second floor, turn left at the kitchen, and meet in the common area. You will need a code to enter the building; the code is TBD. Make sure to hit the # key after typing in the code.
 
 ### Remote Office Hours (<a style="color:green; text-decoration: none">green</a>)
 

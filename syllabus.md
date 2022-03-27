@@ -92,7 +92,7 @@ There are two lecture sections.
 
 You can attend lecture in two ways:
 
-- By attending in-person at **Center Hall 109 📍**
+- By attending in-person at **Center Hall 109 📍 ([map](https://map.concept3d.com/?id=1005#!m/163044))**
 - By attending remotely via Zoom (see the course homepage or Calendar for the link)
 
 **Anyone can attend either lecture section**, but if (physical) space fills up, priority will be given to students officially enrolled in that section. Attendance is not required, **though you are encouraged to attend in-person if you are able to**. Lectures will be podcasted.
@@ -108,7 +108,7 @@ There are two discussion sections.
 - B01: W 8-8:50PM
 
 You can attend discussion in two ways:
-- By attending in-person at **Pepper Canyon Hall 122 📍**
+- By attending in-person at **Pepper Canyon Hall 122 📍 ([map](https://map.concept3d.com/?id=1005#!m/246320))**
 - By attending remotely via Zoom (see the course homepage or Calendar for the link)
 
 **Anyone can attend either discussion section**. Attendance is recommended, but not required. Discussion sections will be
@@ -121,7 +121,9 @@ Attending discussion and submitting the discussion assignment are *not*
 mandatory. However, each discussion assignment submitted will earn you
 0.25% of **extra credit 🎉** applied towards your overall score at the
 end of the quarter. Since there will be 8 discussions, there will be 2%
-of extra credit made available, which can be enough to bump your grade by a third of a letter grade (e.g. B+ to A-). Discussion assignments will be due via Gradescope on the **Saturday** after discussion at 11:59PM.
+of extra credit made available, which can be enough to bump your grade by a third of a letter grade (e.g. B+ to A-). 
+
+Discussion assignments will typically be released on Wednesdays and due on **Saturdays** at 11:59PM.
 
 In DSC 80, we want you to get as much practice as possible with the tools of
 the trade, including `git`. Therefore, all assignments – discussions included
@@ -131,7 +133,7 @@ repository](https://github.com/dsc-courses/dsc80-2022-sp).
 ### Labs
 
 There will be **nine lab assignments** due weekly throughout the
-quarter, usually on **Mondays** at 11:59PM. Each lab assignment will consist of a mixture of coding and free
+quarter. Each lab assignment will consist of a mixture of coding and free
 response questions. Coding questions will ask you to fill in the body of
 a function. Doctests are usually provided so that you can make sure that
 you\'re on the right track (*a la* DSC 20), however, your submission
@@ -140,10 +142,12 @@ will be graded using a private autograder with hidden tests.
 Each lab is worth the same amount, but the lowest lab will be dropped
 when calculating your final score.
 
+Labs will typically be released on Tuesdays and due on **Mondays** at 11:59PM.
+
 ### Projects
 
 There will be **five projects** due every other week throughout the
-quarter, often on **Thursdays** at 11:59PM. Like labs, projects consist of coding and free response
+quarter. Like labs, projects consist of coding and free response
 questions. As their name implies, however, projects are more open-ended
 and allow you to simulate applying your data science skills in practical
 situations. You can think of the projects as being mini-take-home-exams
@@ -158,6 +162,8 @@ ensure that you\'re on-track to complete the project on time, and should
 Note that, unlike labs, the lowest project score is not dropped. Like all assignments, you can obtain projects by pulling from the course GitHub repository.
 
 The last project, Project 5, will be due during finals week, and can be thought of as a practical component of the Final Exam.
+
+Projects will typically be released on Saturdays and due on **Thursdays** at 11:59PM, though this will certainly change for a few projects.
 
 **Pair Programming**
 
