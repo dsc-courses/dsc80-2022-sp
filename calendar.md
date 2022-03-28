@@ -13,7 +13,7 @@ Lectures are held in **Center Hall 109 📍 ([map](https://map.concept3d.com/?id
 
 ### In-Person Office Hours (<a style="color:chocolate; text-decoration: none">orange</a>)
 
-Most office hours are held in-person (shown in orange in the calendar below, starting with [IP], which stands for "in-person"). These are held on the second floor of the east wing of the **San Diego Supercomputer Center 📍 ([map](https://map.concept3d.com/?id=1005#!m/165141))**. Enter SDSC from the main entrance on Hopkins Drive, take the elevator up to the second floor, turn left at the kitchen, and meet in the common area. You will need a code to enter the building; the code is TBD. Make sure to hit the # key after typing in the code.
+Most office hours are held in-person (shown in orange in the calendar below, starting with [IP], which stands for "in-person"). These are held on the second floor of the east wing of the **San Diego Supercomputer Center 📍 ([map](https://map.concept3d.com/?id=1005#!m/165141))**. Enter SDSC from the main entrance on Hopkins Drive, take the elevator up to the second floor, turn left at the kitchen, and meet in the common area. You will need a code to enter the building; the code is in [this Campuswire post](https://campuswire.com/c/G325FA25B/feed/13). Make sure to hit the # key after typing in the code.
 
 ### Remote Office Hours (<a style="color:green; text-decoration: none">green</a>)
 

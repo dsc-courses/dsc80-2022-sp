@@ -4,7 +4,7 @@
     days:
       - date: 2021-3-28
         events:
-          "**LEC 1**{: .label .label-lecture } Introduction, Data Science Lifecycle":
+          "**LEC 1**{: .label .label-lecture } [Introduction, Data Science Lifecycle](resources/lectures/lec01/lec01.html)":
             "[Ch. 1](https://notes.dsc80.com/content/01/introduction.html)"
                 
       - date: 2021-3-30
