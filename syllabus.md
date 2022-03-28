@@ -113,8 +113,7 @@ You can attend discussion in two ways:
 
 **Anyone can attend either discussion section**. Attendance is recommended, but not required. Discussion sections will be
 podcasted, but the nature of discussion section (they usually involve a
-large amount of groupwork) means that **the podcasted discussion might not
-be as useful as in-person attendance**.
+large amount of groupwork) means that **attending discussion in-person is likely to be more effective than attending remotely or watching the podcast**.
 
 During discussion you will work through a short notebook designed to review ideas from lecture and prepare you for upcoming assignments.
 Attending discussion and submitting the discussion assignment are *not*
