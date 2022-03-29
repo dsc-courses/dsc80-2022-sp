@@ -23,7 +23,7 @@ Some office hours are held remotely. To access a remote office hour (shown in gr
 
 - A few office hours per week are "hybrid", meaning that you can attend them both remotely or in-person; such office hours will appear both green and orange in the calendar below.
 
-- When attending office hours, course staff may ask you to make a "ticket" on the queue at [autograder.ucsd.edu](https://autograder.ucsd.edu). To do so, log into the queue, click "Create New Ticket", and add a brief title for your ticket indicating what you need help with. (Note: despite it being called "Autograder", it does not grade anything, it is purely a queue!)
+- When attending office hours, course staff may ask you to make a "ticket" on the queue at [autograder.ucsd.edu](https://autograder.ucsd.edu). To do so, log into the queue, click "Create New Ticket", and add a brief title for your ticket indicating what you need help with. Room and Workstation are required to fill out for submitting a ticket, so just randomly select a location. (Note: despite it being called "Autograder", it does not grade anything, it is purely a queue!)
 
 [Zoom Link](https://ucsd.zoom.us/j/92137281308){: .btn .btn-blue }
 
