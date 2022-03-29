@@ -238,3 +238,13 @@ Then, open up the file-tree in the original Jupyter tab, and you should see all 
 course files now there. If you have already cloned the repository, and
 just want to get the latest files, type `git pull` and you should see
 the updated files.
+
+### Troubleshooting DataHub
+
+**What if I accidentally clicked a different class instead of DSC 80 when logging into DataHub, or what if my DataHub doesn't load?**
+
+1. If you are already logged into DataHub, click "Control Panel" in the top right. (If your DataHub never launched in the first place, proceed to the next step.)
+
+2. In the toolbar at appears at [datahub.ucsd.edu](https://datahub.ucsd.edu), click "Services" then click "manual-resetter", then click "Reset". If a pop-up box appears, that's okay.
+
+3. Log back into DataHub again and it should allow you to select a course – select DSC 80.
