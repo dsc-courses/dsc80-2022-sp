@@ -9,7 +9,7 @@
                 
       - date: 2021-3-30
         events:
-          "**LEC 2**{: .label .label-lecture } Pandas":
+          "**LEC 2**{: .label .label-lecture } [Pandas](resources/lectures/lec02/lec02.html)":
             "[Ch. 2](https://notes.dsc80.com/content/02/introduction.html)"
                 
           "**DIS 1**{: .label .label-disc } **Introduction (due 4/2)**":
