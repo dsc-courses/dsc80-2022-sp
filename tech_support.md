@@ -16,6 +16,10 @@ nav_order: 4
 
 ---
 
+**Note:** [This video 🎥](https://youtu.be/FpTo4AM9B30) walks through some of the environment setup instructions (along with how to access and work on assignments). However, it is not a substitute for reading this page.
+
+---
+
 ## Introduction
 
 Assignments in DSC 80 are mostly coding assignments, so it's important to make sure that your computing environment is set up properly. There are two ways to go about things: you can set up a local environment or use a remote environment that is largely pre-configured. On this page, we'll talk about both options.
