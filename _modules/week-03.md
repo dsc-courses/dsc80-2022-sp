@@ -16,7 +16,7 @@
           "**DIS 3**{: .label .label-disc } **Visualization (due 4/16)**":
       - date: 2021-4-14
         events:
-          "**PROJ 1**{: .label .label-proj } **[Calculating Grades (due 4/14)](https://github.com/dsc-courses/dsc80-2022-sp/blob/main/projects/01-gradebook/project.ipynb)** ([partners](https://docs.google.com/spreadsheets/d/1PMtGpd4U6rYBn6Ut6eHQzSo4PdBwluU-ppx87ROy_N8/edit#gid=0)) ([🎥](https://www.youtube.com/watch?v=Os-BT0FTzVg))":
+          "**PROJ 1**{: .label .label-proj } **[Gradebook (due 4/14)](https://github.com/dsc-courses/dsc80-2022-sp/blob/main/projects/01-gradebook/project.ipynb)** ([partners](https://docs.google.com/spreadsheets/d/1PMtGpd4U6rYBn6Ut6eHQzSo4PdBwluU-ppx87ROy_N8/edit#gid=0)) ([🎥](https://www.youtube.com/watch?v=Os-BT0FTzVg))":
       - date: 2021-4-15
         events:
           "**LEC 9**{: .label .label-lecture } More Combining Data":
