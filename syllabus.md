@@ -103,15 +103,13 @@ There is also a set of notes written by Aaron Fraenkel for this course that can 
 
 ### Discussions
 
-There are two discussion sections.
-- A01: W 7-7:50PM
-- B01: W 8-8:50PM
+As of Week 2, we have consolidated the two originally scheduled discussion sections into **one, larger discussion section on Wednesdays from 7-8:30PM**, that is open to all students in the class. The plan is to spend the first ~hour on discussion content and leave the remaining half-hour for questions and office hours with the TA.
 
 You can attend discussion in two ways:
 - By attending in-person at **Pepper Canyon Hall 122 📍 ([map](https://map.concept3d.com/?id=1005#!m/246320))**
 - By attending remotely via Zoom (see the course homepage or Calendar for the link)
 
-**Anyone can attend either discussion section**. Attendance is recommended, but not required. Discussion sections will be
+Attendance is recommended, but not required. Discussion sections will be
 podcasted, but the nature of discussion section (they usually involve a
 large amount of groupwork) means that **attending discussion in-person is likely to be more effective than attending remotely or watching the podcast**.
 

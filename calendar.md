@@ -9,7 +9,7 @@ nav_order: 3
 
 ### Lectures and Discussions (<a style="color:blue; text-decoration: none">blue</a>)
 
-Lectures are held in **Center Hall 109 📍 ([map](https://map.concept3d.com/?id=1005#!m/163044))**, and discussions are in held in **Pepper Canyon Hall 122 📍 ([map](https://map.concept3d.com/?id=1005#!m/246320))**. You may join all lectures and discussions remotely via Zoom by clicking the "Zoom Link" button below, though in-person attendance is encouraged.
+Lectures are held in **Center Hall 109 📍 ([map](https://map.concept3d.com/?id=1005#!m/163044))**, and discussion is held in **Pepper Canyon Hall 122 📍 ([map](https://map.concept3d.com/?id=1005#!m/246320))**. You may join all lectures and discussions remotely via Zoom by clicking the "Zoom Link" button below, though in-person attendance is encouraged.
 
 ### In-Person Office Hours (<a style="color:chocolate; text-decoration: none">orange</a>)
 

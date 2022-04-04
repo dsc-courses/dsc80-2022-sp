@@ -4,7 +4,7 @@
     days:
       - date: 2021-4-4
         events:
-          "**LEC 4**{: .label .label-lecture } [Messy Data](resources/lectures/lec01/lec01.html)":
+          "**LEC 4**{: .label .label-lecture } [Messy Data](resources/lectures/lec04/lec04.html)":
             "[Ch. 3](https://notes.dsc80.com/content/03/introduction.html), [4.1-4.2](https://notes.dsc80.com/content/04/introduction.html)"
                 
           "**Lab 1**{: .label .label-lab } **[Introduction (due 4/4)](https://github.com/dsc-courses/dsc80-2022-sp/blob/main/labs/01-intro/lab.ipynb) ([setup video](https://www.youtube.com/watch?v=FpTo4AM9B30))**":
