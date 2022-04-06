@@ -7,7 +7,7 @@
           "**LEC 7**{: .label .label-lecture } Data Granularity":
             "[Ch. 5.1-5.2](https://notes.dsc80.com/content/05/introduction.html)"
                 
-          "**Lab 2**{: .label .label-lab } **Pandas (due 4/11)**":
+          "**Lab 2**{: .label .label-lab } **[Pandas (due 4/11)](https://github.com/dsc-courses/dsc80-2022-sp/blob/main/labs/02-pandas/lab.ipynb)**":
       - date: 2021-4-13
         events:
           "**LEC 8**{: .label .label-lecture } Combining Data":
