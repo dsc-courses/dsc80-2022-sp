@@ -11,7 +11,7 @@
           "**SUR**{: .label .label-survey } **[Welcome + Alternate Exams Form (due 4/4)](https://docs.google.com/forms/d/e/1FAIpQLSdBKLcPs4Xi0plaIw0MVZ0DyGcvnSZyHxKVC7S7LwEiCchepQ/viewform)**":
       - date: 2021-4-6
         events:
-          "**LEC 5**{: .label .label-lecture } More Messy Data, Hypothesis Testing":
+          "**LEC 5**{: .label .label-lecture } [Unfaithful Data, Hypothesis Testing](resources/lectures/lec05/lec05.html)":
             "[Ch. 4](https://notes.dsc80.com/content/04/introduction.html), [CIT 11](https://inferentialthinking.com/chapters/11/Testing_Hypotheses.html)"
                 
           "**DIS 2**{: .label .label-disc } **Pandas (due 4/9)**":

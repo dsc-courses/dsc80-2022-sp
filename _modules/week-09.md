@@ -9,6 +9,7 @@
       - date: 2021-5-25
         events:
           "**LEC 25**{: .label .label-lecture } Model Evaluation":
+          "**DIS 8**{: .label .label-disc } **Model Evaluation (due 5/28)**":
       - date: 2021-5-26
         events:
           "**PROJ 4**{: .label .label-proj } **Language Models (due 5/26)**":

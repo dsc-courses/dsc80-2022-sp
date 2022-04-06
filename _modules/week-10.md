@@ -8,7 +8,7 @@
       - date: 2021-6-1
         events:
           "**LEC 27**{: .label .label-lecture } Review":
-          "**DIS 8**{: .label .label-disc } **Review**":
+          "**DIS 9**{: .label .label-disc } **Review**":
       - date: 2021-6-3
         events:
           "**LEC 28**{: .label .label-lecture } Conclusion":
