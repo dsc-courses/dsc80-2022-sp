@@ -20,7 +20,7 @@
           "**PROJ 1**{: .label .label-proj } **[Gradebook (CP due 4/7, Full due 4/14)](https://github.com/dsc-courses/dsc80-2022-sp/blob/main/projects/01-gradebook/project.ipynb)** ([partners](https://docs.google.com/spreadsheets/d/1PMtGpd4U6rYBn6Ut6eHQzSo4PdBwluU-ppx87ROy_N8/edit#gid=0)) ([🎥](https://www.youtube.com/watch?v=Os-BT0FTzVg))":
       - date: 2021-4-8
         events:
-          "**LEC 6**{: .label .label-lecture } Hypothesis Testing":
+          "**LEC 6**{: .label .label-lecture } [Hypothesis Testing](resources/lectures/lec06/lec06.html)":
             "[CIT 11](https://inferentialthinking.com/chapters/11/Testing_Hypotheses.html)"
                 
 ---
