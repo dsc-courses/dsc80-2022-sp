@@ -4,7 +4,7 @@
     days:
       - date: 2021-4-11
         events:
-          "**LEC 7**{: .label .label-lecture } Data Granularity":
+          "**LEC 7**{: .label .label-lecture } [Grouping and Pivoting](resources/lectures/lec07/lec07.html)":
             "[Ch. 5.1-5.2](https://notes.dsc80.com/content/05/introduction.html)"
                 
           "**Lab 2**{: .label .label-lab } **[Pandas (due 4/11)](https://github.com/dsc-courses/dsc80-2022-sp/blob/main/labs/02-pandas/lab.ipynb)**":
