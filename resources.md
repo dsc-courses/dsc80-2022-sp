@@ -31,6 +31,7 @@ Note that topic coverage and ordering has changed over time, so the content in o
 ## Videos
 
 - [Environment Setup and the Assignment Workflow in DSC 80](https://youtu.be/FpTo4AM9B30)
+- [Working with the command-line in DSC 80](https://www.youtube.com/watch?v=uUawZfAgA64)
 
 ---
 
