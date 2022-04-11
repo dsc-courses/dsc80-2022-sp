@@ -14,7 +14,7 @@
           "**LEC 5**{: .label .label-lecture } [Unfaithful Data, Hypothesis Testing](resources/lectures/lec05/lec05.html)":
             "[Ch. 4](https://notes.dsc80.com/content/04/introduction.html), [CIT 11](https://inferentialthinking.com/chapters/11/Testing_Hypotheses.html)"
                 
-          "**DIS 2**{: .label .label-disc } **Pandas (due 4/9)**":
+          "**DIS 2**{: .label .label-disc } **[Pandas (due 4/9)](https://github.com/dsc-courses/dsc80-2022-sp/tree/main/discussions/02-pandas)**":
       - date: 2021-4-7
         events:
           "**PROJ 1**{: .label .label-proj } **[Gradebook (CP due 4/7, Full due 4/14)](https://github.com/dsc-courses/dsc80-2022-sp/blob/main/projects/01-gradebook/project.ipynb)** ([partners](https://docs.google.com/spreadsheets/d/1PMtGpd4U6rYBn6Ut6eHQzSo4PdBwluU-ppx87ROy_N8/edit#gid=0)) ([🎥](https://www.youtube.com/watch?v=Os-BT0FTzVg))":
