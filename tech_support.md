@@ -119,6 +119,8 @@ in the latest version of the repository, run `git pull`. This will **not**
 overwrite your work. In fact, Git is designed to make it very difficult
 to lose work (although it\'s still possible!).
 
+**New:** Running into Git issues? Check [here](https://campuswire.com/c/G325FA25B/feed/315).
+
 ### Choosing a Text Editor or IDE
 
 In this class, you will need to use a combination of editors for doing
