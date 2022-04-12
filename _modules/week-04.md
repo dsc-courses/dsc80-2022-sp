@@ -7,7 +7,7 @@
           "**LEC 10**{: .label .label-lecture } Permutation Testing":
             "[Ch. 5.5](https://notes.dsc80.com/content/05/permutation-tests.html), [CIT 12](https://inferentialthinking.com/chapters/12/Comparing_Two_Samples.html)"
                 
-          "**Lab 3**{: .label .label-lab } **Hypothesis Testing and Combining Data (due 4/18)**":
+          "**Lab 3**{: .label .label-lab } **[Hypothesis Testing and DataFrame Manipulation (due 4/18)](https://github.com/dsc-courses/dsc80-2022-sp/blob/main/labs/03-hyp-dataframes/lab.ipynb)**":
       - date: 2021-4-20
         events:
           "**LEC 11**{: .label .label-lecture } More Permutation Testing, Missing Values":
