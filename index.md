@@ -12,9 +12,7 @@ nav_order: 1
 
 {{ site.staffersnobio }}
 
-[Zoom Link](https://ucsd.zoom.us/j/92137281308){: .btn .btn-blue } [Recordings](https://podcast.ucsd.edu){: .btn .btn-green }
-
-| 🎉 Welcome to the Spring 2022 offering of DSC 80! Make sure to read the [**syllabus**](syllabus). |
+[Zoom Link](https://ucsd.zoom.us/j/92137281308){: .btn .btn-blue } [Recordings](https://podcast.ucsd.edu){: .btn .btn-green } [Assignment Solutions](https://campuswire.com/c/G325FA25B/feed/508){: .btn .btn-purple }
 
 {% for module in site.modules %}
 {{ module }}
