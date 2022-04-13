@@ -10,7 +10,7 @@
           "**Lab 2**{: .label .label-lab } **[Pandas (due 4/11)](https://github.com/dsc-courses/dsc80-2022-sp/blob/main/labs/02-pandas/lab.ipynb)**":
       - date: 2021-4-13
         events:
-          "**LEC 8**{: .label .label-lecture } Combining Data":
+          "**LEC 8**{: .label .label-lecture } [Pivoting, Simpson's Paradox, and Concatenation](resources/lectures/lec08/lec08.html)":
             "[Ch. 5.3](https://notes.dsc80.com/content/05/appending-data.html)"
                 
           "**DIS 3**{: .label .label-disc } **Visualization (due 4/16)**":
