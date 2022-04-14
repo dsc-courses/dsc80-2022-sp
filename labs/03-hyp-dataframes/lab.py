@@ -110,7 +110,7 @@ def std_scores_by_nation(cleaned):
     >>> out = std_scores_by_nation(cleaned)
     >>> out.shape[0] == cleaned.shape[0]
     True
-    >>> set(out.columns) == set(['nation', 'score'])
+    >>> set(out.columns) == set(['institution', 'nation', 'score'])
     True
     >>> np.all(abs(out.select_dtypes(include='number').mean()) < 10**-7)  # standard units should average to 0!
     True
