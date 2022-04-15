@@ -19,7 +19,7 @@
           "**PROJ 1**{: .label .label-proj } **[Gradebook (due 4/14)](https://github.com/dsc-courses/dsc80-2022-sp/blob/main/projects/01-gradebook/project.ipynb)** ([partners](https://docs.google.com/spreadsheets/d/1PMtGpd4U6rYBn6Ut6eHQzSo4PdBwluU-ppx87ROy_N8/edit#gid=0)) ([🎥](https://www.youtube.com/watch?v=Os-BT0FTzVg))":
       - date: 2021-4-15
         events:
-          "**LEC 9**{: .label .label-lecture } More Combining Data":
+          "**LEC 9**{: .label .label-lecture } [Combining Data](resources/lectures/lec09/lec09.html)":
             "[Ch. 5.4](https://notes.dsc80.com/content/05/joining-data.html)"
                 
 ---
