@@ -18,6 +18,6 @@
             "[Ch. 7.1-7.2](https://notes.dsc80.com/content/07/introduction.html)"
       - date: 2021-4-30
         events:
-          "**PROJ 2**{: .label .label-proj } **Vaccination Rates (due 4/30)**":
+          "**PROJ 2**{: .label .label-proj } **[COVID Vaccinations 🦠 (due 4/30)](https://github.com/dsc-courses/dsc80-2022-sp/blob/main/projects/02-covid_vax/project.ipynb)**":
                 
 ---

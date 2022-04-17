@@ -16,7 +16,7 @@
           "**DIS 4**{: .label .label-disc } **Combining Data (due 4/23)**":
       - date: 2021-4-21
         events:
-          "**PROJ 2**{: .label .label-proj } **Vaccination Rates (Checkpoint due 4/21, Project due 4/30)**":
+          "**PROJ 2**{: .label .label-proj } **[COVID Vaccinations 🦠 (CP due 4/21, Full due 4/30)](https://github.com/dsc-courses/dsc80-2022-sp/blob/main/projects/02-covid_vax/project.ipynb)**":
       - date: 2021-4-22
         events:
           "**LEC 12**{: .label .label-lecture } More Missing Values":
