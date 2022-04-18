@@ -4,7 +4,7 @@
     days:
       - date: 2021-4-18
         events:
-          "**LEC 10**{: .label .label-lecture } Permutation Testing":
+          "**LEC 10**{: .label .label-lecture } [Permutation Testing](resources/lectures/lec10/lec10.html)":
             "[Ch. 5.5](https://notes.dsc80.com/content/05/permutation-tests.html), [CIT 12](https://inferentialthinking.com/chapters/12/Comparing_Two_Samples.html)"
                 
           "**Lab 3**{: .label .label-lab } **[Hypothesis Testing and DataFrame Manipulation (due 4/18)](https://github.com/dsc-courses/dsc80-2022-sp/blob/main/labs/03-hyp-dataframes/lab.ipynb)**":

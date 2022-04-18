@@ -48,4 +48,4 @@ Note that topic coverage and ordering has changed over time, so the content in o
 ## Other Resources
 - [pandastutor.com](https://pandastutor.com), the equivalent of [pythontutor.com](https://pythontutor.com) for DataFrame manipulation.
 - [regex101.com](https://regex101.com), a helpful site to have open while writing regular expressions.
-
+- [jwilber.me/permutationtest](https://www.jwilber.me/permutationtest/), a great visual explanation of permutation testing.
