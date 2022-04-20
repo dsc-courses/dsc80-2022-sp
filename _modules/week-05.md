@@ -7,11 +7,11 @@
           "**LEC 13**{: .label .label-lecture } Imputation":
             "[Ch. 6.3-6.5](https://notes.dsc80.com/content/06/handling-missing-data.html)"
                 
-          "**Lab 4**{: .label .label-lab } **Permutation Testing and Missing Values (due 4/25)**":
+          "**Lab 4**{: .label .label-lab } **[Pivot Tables, Permutation Testing, and Missing Values (due 4/25)](https://github.com/dsc-courses/dsc80-2022-sp/blob/main/labs/04-pivot-perm-missing/lab.ipynb)**":
       - date: 2021-4-27
         events:
-          
-          "**Exam**{: .label .label-exam } **Midterm Exam (during lecture)**":
+          "**SRV**{: .label .label-survey } **[Mid-Quarter Survey (due 4/27 before the exam)](https://docs.google.com/forms/d/e/1FAIpQLSd9k90fGqPKDRAnHjFBEx5kak_VtvYN5Fq5uPv9jyqrryaKeA/viewform)**":
+          "**Exam**{: .label .label-exam } **Midterm Exam (in-person, during lecture)**":
       - date: 2021-4-29
         events:
           "**LEC 14**{: .label .label-lecture } HTML":
