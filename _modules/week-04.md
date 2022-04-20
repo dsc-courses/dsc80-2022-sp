@@ -13,7 +13,7 @@
           "**LEC 11**{: .label .label-lecture } [Missing Values](resources/lectures/lec11/lec11.html)":
             "[Ch. 6.1-6.2](https://notes.dsc80.com/content/06/introduction.html)"
                 
-          "**DIS 4**{: .label .label-disc } **Combining Data (due 4/23)**":
+          "**DIS 4**{: .label .label-disc } **[Visualization (due 4/23)](https://github.com/dsc-courses/dsc80-2022-sp/tree/main/discussions/04-visualization)**":
       - date: 2021-4-21
         events:
           "**PROJ 2**{: .label .label-proj } **[COVID Vaccinations 🦠 (CP due 4/21, Full due 4/30)](https://github.com/dsc-courses/dsc80-2022-sp/blob/main/projects/02-covid_vax/project.ipynb)**":
