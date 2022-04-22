@@ -19,7 +19,7 @@
           "**PROJ 2**{: .label .label-proj } **[COVID Vaccinations 🦠 (CP due 4/21, Full due 4/30)](https://github.com/dsc-courses/dsc80-2022-sp/blob/main/projects/02-covid_vax/project.ipynb)**":
       - date: 2021-4-22
         events:
-          "**LEC 12**{: .label .label-lecture } More Missing Values":
+          "**LEC 12**{: .label .label-lecture } [More Missing Values](resources/lectures/lec12/lec12.html)":
             "[Ch. 6.3-6.5](https://notes.dsc80.com/content/06/handling-missing-data.html)"
                 
 ---
