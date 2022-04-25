@@ -4,7 +4,7 @@
     days:
       - date: 2021-4-25
         events:
-          "**LEC 13**{: .label .label-lecture } Imputation":
+          "**LEC 13**{: .label .label-lecture } [Imputation](resources/lectures/lec13/lec13.html)":
             "[Ch. 6.3-6.5](https://notes.dsc80.com/content/06/handling-missing-data.html)"
                 
           "**Lab 4**{: .label .label-lab } **[Pivot Tables, Permutation Testing, and Missing Values (due 4/25)](https://github.com/dsc-courses/dsc80-2022-sp/blob/main/labs/04-pivot-perm-missing/lab.ipynb)**":
