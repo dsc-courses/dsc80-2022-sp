@@ -14,7 +14,7 @@
           "**Exam**{: .label .label-exam } **Midterm Exam (in-person, during lecture)**":
       - date: 2021-4-29
         events:
-          "**LEC 14**{: .label .label-lecture } HTML":
+          "**LEC 14**{: .label .label-lecture } [HTTP Basics](resources/lectures/lec14/lec14.html)":
             "[Ch. 7.1-7.2](https://notes.dsc80.com/content/07/introduction.html)"
       - date: 2021-4-30
         events:
