@@ -20,11 +20,9 @@ nav_exclude: true
 
 ### Due Date
 
-- The due date is on *Friday*, since Thursday Nov. 11 is a holiday.
+- The due date is Thursday May 12th.
 * This project contains no new material and is a good opportunity to sharpen your understanding of the core concepts of the first half of the course.
-* While there is no checkpoint, try to self-impose the checkpoint. This will enable you to polish your work into a coherent notebook upon submission. Since this project is only graded on the output displayed in the notebook (there is no `.py` file submitted), you will need to make sure you submit a "readable report" that graders can follow!
-
-TODO update this
+* While there is no checkpoint, try to self-impose the checkpoint. This will enable you to polish your work into a coherent notebook upon submission. Since this project is only graded on the output displayed in the notebook (no `.py` file will be submitted), you will need to make sure you submit a "readable report" that graders can follow!
 
 ---
 
@@ -32,20 +30,18 @@ TODO update this
 
 This project will be an open investigation into a dataset. You will follow the steps given below:
 
-1. Pick **one** of the three datasets described in the notebooks in this directory (`nypd.ipynb`, `stocks.ipynb`, `outages.ipynb`). TODO change this
-1. Narrow down a few questions and lines of inquiry to pursue in the dataset of choice.
-1. Assess the quality of these datasets via exploratory data analysis, placing your results in the context of how the data were generated.
-1. Assess the mechanism of missingness for some relevant portion of the dataset.
-1. Ask/answer a question about the dataset using a hypothesis test or permutation test, being sure to discuss uncertainty of your result and possible shortcomings of your approach.
-1. Conclude with how you might improve your work and what data you might use to do so.
+1. Pull the latest version of the dsc80 repo, this should have a `template.ipynb` file that you will use as a template for the project. If you deleted the file or want another copy of the template, it can be found here: https://github.com/dsc-courses/dsc80-2022-sp/projects/03-topic/template.ipynb
+2. Pick **one** of the three datasets that can be found under the instructions ("NYPD Civilian Complaints", "Power Outages", or "Stock Trades").
+3. Download the dataset of your choosing and load it into your `template.ipynb` file.
+4. Narrow down a few questions and lines of inquiry to pursue in the dataset of choice.
+5. Assess the quality of these datasets via exploratory data analysis, placing your results in the context of how the data were generated.
+6. Assess the mechanism of missingness for some relevant portion of the dataset.
+7. Ask/answer a question about the dataset using a hypothesis test or permutation test, being sure to discuss uncertainty of your result and possible shortcomings of your approach.
+8. Conclude with how you might improve your work and what data you might use to do so.
 
 <!-- ## How to Organize and Submit Your Work for Grading -->
 
-Below, we describe what is required of you.
-
-TODO somewhere mention the template notebook and provide a link to it
-
-https://github.com/dsc-courses/dsc80-2022-sp/projects/03-topic/template.ipynb
+Now that you have a rough overview of what you are going to be doing in the project, the following sections will talk about the items you will need in your project in detail so read it ***carefully***: 
 
 ### Summary of Findings
 Each of these steps will be summarized in the *Summary  of Findings* section at the top of the project notebook. This should include:
