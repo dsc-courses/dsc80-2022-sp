@@ -1,0 +1,20 @@
+{
+    "name": "Grandma",
+    "age": 94,
+    "children": [
+        {
+        "name": "Dad",
+        "age": 60,
+        "children": [{"name": "Me", "age": 23}, 
+                     {"name": "Brother", "age": 21}]
+        },
+        {
+        "name": "My Aunt",
+        "children": [{"name": "Cousin 1", "age": 34}, 
+                     {"name": "Cousin 2", "age": 36, "children": 
+                        [{"name": "Cousin 2 Jr.", "age": 2}]
+                     }
+                    ]
+        }
+    ]
+}
