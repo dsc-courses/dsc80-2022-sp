@@ -41,15 +41,15 @@ This project will be an open investigation into a dataset. You will follow the s
 
 <!-- ## How to Organize and Submit Your Work for Grading -->
 
-Now that you have a rough overview of what you are going to be doing in the project, the following sections will talk about the items you will need in your project in detail so read it ***carefully***: 
+Now that you have a rough overview of what you are going to be doing in the project, the following sections will talk about the specific items you will need in your project so read it ***carefully***: 
 
 ### Summary of Findings
-Each of these steps will be summarized in the *Summary  of Findings* section at the top of the project notebook. This should include:
+Each of the following steps should be summarized in the *Summary  of Findings* section at the top of the project notebook. This includes:
 
-* Introduce the dataset as you understand it and how it relates to the question you are investigating.
-* Describe data-cleaning steps and how it affects your analyses. Steps should be explained/justified in reference to the data generating process.
-* Describe the setup/results of your assessment on missingness, including how to interpret those results, your statistical confidence, and how they might affect your ability to answer questions about the dataset. 
-* Describe the setup/results of your Hypothesis test, including being clear about your null/alternative hypothesis, your test-statistic, the significance level you used, and what conclusions you can draw from the results.
+* Introducing the dataset as you understand it and how it relates to the question you are investigating.
+* Describing the data-cleaning steps and how it affects your analyses. The steps should be explained/justified in reference to the data generating process.
+* Describing the setup/results of your assessment on missingness, including how to interpret those results, your statistical confidence, and how they might affect your ability to answer questions about the dataset. 
+* Describing the setup/results of your Hypothesis test, including being clear about your null/alternative hypotheses, your test-statistic, the significance level you used, and what conclusions you can draw from the results.
 
 Each of the above should contain *specifics* about your data-analyses (e.g. concrete numbers). The work/code/details for how you obtained your results should be included in your notebook, **below** the *Summary of Findings* section. You should clearly label what you are doing in your work using the 'markdown cells' in your notebook.
 
@@ -77,28 +77,37 @@ When doing the work that informs your summary, **you should write organized, rea
 * Recall that whether data is NMAR or not is an assumption of whether the missingness is explainable by observed data or not. In this section, you will investigate the likely missingness mechanisms of your data as being missing at random. Before making this assumption, address in the summary whether you believe the data is NMAR -- explain your reasoning and any additional data you might want to obtain that could explain the missingness (thereby making it MAR).
 * Pick a column with non-trivial missingness to analyze.
 * Perform permutation tests to analyze the dependency of this missingness on other columns.
-    - Find at least one column for which missingness is dependent and one for which missingness is not dependent.
+    - Find at least one column for which missingness is dependent and one for which missingness is not dependent*.
 * Interpret the meaning of the permutation test results with respect to your data and question.
+*\*For the “Stock Trades” dataset, you instead will have to show three cases where the missingness of the data is dependent on another column.*
 
 ### Requirements: Hypothesis Test
 
-* Formulate a hypothesis and perform a hypothesis test. You can use the "sample lines of inquiry" in each project notebook for inspiration or you can create your own.
+* Formulate a hypothesis and perform a hypothesis test. You can use the "sample questions" in each of the dataset descriptions for inspiration or you can create your own.
 * Be sure to explicitly state the (null and alternative) hypothesis, the test-statistic, the significance level, the resulting p-value and results. Justify why these choices are good choices for answering the question you are trying to answer.
-
-TODO make sure this is consistent with the fact that it's on a webpage
-
-TODO below, you will find descriptions of the three datasets you can choose from
 
 ---
 
-## NYPD Civilian Complaints
-This project contains data on 12,000 civilian complaints filed against New York City police officers. Interesting questions to consider include:
-- Does the length that the complaint is open depend on ethnicity/age/gender?
-- Are white-officer vs non-white complaintant cases more likely to go against the complainant? 
-- Are allegations more severe for cases in which the officer and complaintant are not the same ethnicity?
-- Are the complaints of women more succesful than men (for the same allegations?)
+## Dataset Descriptions
+Below this section you will find descriptions for the three datasets you can choose from. In each of the descriptions you will be given additional information like:
+* Sample questions you can investigate for your hypothesis test
+* Steps on how to get the data
+* Guidelines on how you can go about cleaning the data and performing EDA.
+* What missingness you should look for in the dataset.
 
-There are a lot of questions that can be asked from this data, so be creative! You are not limited to the sample questions above.
+When selecting which dataset you are going to use for your project, try choosing the one whose topic appeals to you the most as that will make finishing the project a lot more enjoyable.
+
+---
+
+## NYPD Civilian Complaints 🚔
+This dataset contains data on 12,000 civilian complaints filed against New York City police officers. 
+### Sample Questions
+- Does the length that the complaint is open depend on ethnicity/age/gender?
+- Are white-officer vs non-white complainant cases more likely to go against the complainant? 
+- Are allegations more severe for cases in which the officer and complainant are not the same ethnicity?
+- Are the complaints of women more successful than men (for the same allegations?)
+
+There are a lot of other questions that can be asked from this data, so be creative! You are not limited to the sample questions above.
 
 ### Getting the Data
 The data and its corresponding data dictionary is downloadable [here](https://www.propublica.org/datastore/dataset/civilian-complaints-against-new-york-city-police-officers).
@@ -112,15 +121,16 @@ Note: you don't need to provide any information to obtain the data. Just agree t
 - Understand the data in ways relevant to your question using univariate and bivariate analysis of the data as well as aggregations.
 
 ### Assessment of Missingness
-- Assess the missingness per the requirements in `project03.ipynb`
+- Find at least one column for which missingness is dependent and one for which missingness is not dependent.
 
-### Hypothesis Test / Permutation Test
-Find a hypothesis test or permutation test to perform. You can use the questions at the top of the notebook for inspiration.
+### Hypothesis Test
+Find a hypothesis test to perform. You can use the sample questions for inspiration.
 
 ---
 
-## Power Outages
-This project uses major power outage data in the continental U.S. from January 2000 to July 2016. Here, a major power  outage is defined as a power outage that impacted at least 50,000 customers or caused an unplanned firm load loss of atleast 300MW. Interesting questions to consider include:
+## Power Outages 🔋
+This dataset has major power outage data in the continental U.S. from January 2000 to July 2016.
+### Sample Questions
 - Where and when do major power outages tend to occur?
 - What are the characteristics of major power outages with higher severity? Variables to consider include location, time, climate, land-use characteristics, electricity consumption patterns, economic characteristics, etc. What risk factors may an energy company want to look into when predicting the location and severity of its next major power outage?
 - What characteristics are associated with each category of cause?
@@ -128,6 +138,8 @@ This project uses major power outage data in the continental U.S. from January 2
 
 ### Getting the Data
 The data is downloadable [here](https://engineering.purdue.edu/LASCI/research-data/outages/outagerisks).
+
+Note: If you are having a hard time with the "This dataset" link, hold shift and click the link to open it into a new tab and then refresh that new tab.
 
 A data dictionary is available at this [article](https://www.sciencedirect.com/science/article/pii/S2352340918307182) under *Table 1. Variable descriptions*.
 
@@ -144,14 +156,14 @@ A data dictionary is available at this [article](https://www.sciencedirect.com/s
 *Tip: To visualize geospatial data, consider [Folium](https://python-visualization.github.io/folium/) or another geospatial plotting library.*
 
 ### Assessment of Missingness
-- Assess the missingness of a column that is not missing by  design.
+- Find at least one column for which missingness is dependent and one for which missingness is not dependent
 
 ### Hypothesis Test
-Find a hypothesis test to perform. You can use the questions at the top of the notebook for inspiration.
+Find a hypothesis test to perform. You can use sample questions for inspiration.
 
 ---
 
-## Stock Trades by Members of the US House of Representatives
+## Stock Trades by Members of the US House of Representatives 📈
 
 This project uses public data about the stock trades made by members of the US House of Representatives. This data is collected and maintained by Timothy Carambat as part of the [House Stock Watcher](https://housestockwatcher.com/) project. The project describes itself as follows:
 
@@ -159,11 +171,11 @@ This project uses public data about the stock trades made by members of the US H
 >
 > Members of Congress must report periodic reports of their asset transactions. This website is purely for an informative purpose and aid in transparency.
 >
-> This site does not manipluate or censor any of the information from the original source. All data is transcribed by our community of contributors, which you can join for free by going to our transcription tool. Our moderation team takes great care in ensuring the accuracy of the information.
+> This site does not manipulate or censor any of the information from the original source. All data is transcribed by our community of contributors, which you can join for free by going to our transcription tool. Our moderation team takes great care in ensuring the accuracy of the information.
 >
 > This site is built and maintained by Timothy Carambat and supported with our contributors.
 
-Some interesting questions to consider for this data set include:
+### Sample Questions
 
 - Is there a difference in stock trading behavior between political parties? For example:
     - does one party trade more often?
@@ -191,24 +203,32 @@ This data set does not, however, contain the political affiliation of the congre
 
 ### Assessment of Missingness
 
-- Assess the missingness per the requirements in `project03.ipynb`
+- Find three cases where the missingness of the data is dependent on another column.
+NOTE: This is different from the other two datasets due to the structure of this dataset
 
-### Hypothesis Test / Permutation Test
-Find a hypothesis test or permutation test to perform. You can use the questions at the top of the notebook for inspiration.
-
-TODO update missingness description for stocks based on conversation and tutor feedback
+### Hypothesis Test
+Find a hypothesis test to perform. You can use the sample questions for inspiration.
 
 
 ---
 
 ## Rubric
 
-TODO copy rubric from fa21 and put it here along with point values
-
 | Component | Weight |
 | --- | --- |
-| Introduction | 5 points |
-| idk | 25 points |
-
+| Introduction (your project has some sort of a goal/purpose.) | 10 points |
+| Data Cleaning is performed | 10 points |
+| Univariate Analysis | 10 points |
+| Bivariate Analysis & Aggregation | 10 points |
+| NMAR question is addressed| 5 points|
+| Permutation tests for missingness is performed| 10 points|
+| Interpretation of the missingness test results| 10 points|
+| Picked good enough columns?| 5 points|
+| Explicitly stated null hypothesis| 5 points|
+| Explicitly stated alt hypothesis| 5 points|
+| A Hypothesis test is performed| 10 points|
+| Valid test statistic was used| 5 points|
+| Correct result based on analysis| 5 points|
+| **TOTAL**| **100 points**|
 
 ---
