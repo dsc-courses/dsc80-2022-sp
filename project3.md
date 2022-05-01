@@ -5,7 +5,7 @@ description: Description of Project 3.
 nav_exclude: true
 ---
 
-# Project 3 🚔🔋📈
+# Project 3 – Exploratory Data Analysis 🚔🔋📈
 {:.no_toc}
 
 ### Due Date: Thursday, May 12th at 11:59PM
@@ -33,7 +33,7 @@ This project contains no new material. Rather, it's a good opportunity to sharpe
 
 This project will be an open investigation into **a single dataset**. You will follow the steps given below:
 
-1. Pull the latest version of the [`dsc80-2022-sp`](https://github.com/dsc-courses/dsc80-2022-sp/) repo. Within the `projects/03-topic` folder, there is a `template.ipynb` notebook that you will use as a template for the project. If you delete the file or want another copy of the template, you can re-download it from [here](https://github.com/dsc-courses/dsc80-2022-sp/projects/03-topic/template.ipynb).
+1. Pull the latest version of the [`dsc80-2022-sp`](https://github.com/dsc-courses/dsc80-2022-sp/) repo. Within the `projects/03-eda` folder, there is a `template.ipynb` notebook that you will use as a template for the project. If you delete the file or want another copy of the template, you can re-download it from [here](https://github.com/dsc-courses/dsc80-2022-sp/projects/03-eda/template.ipynb).
 2. Pick **one** of the three datasets described below:
     - [NYPD Civilian Complaints](#nypd-civilian-complaints-).
     - [Power Outages](#power-outages-).
@@ -268,7 +268,7 @@ Your project will be graded out of 100 points. The rough rubric is shown below. 
 
 To submit the project, generate a **PDF of your Jupyter Notebook** that contains all of the requirements above, and upload that PDF to Gradescope. You will not need to upload the raw notebook to Gradescope.
 
-To export your notebook as a PDF, go to "File > Download as > HTML (.html)". Then, open the `.html` file that was created, and save a print preview of that webpage as a PDF. There are other ways to save a notebook as a PDF but they may require that you have additional packages installed on your computer, so this is likely the most straightforward.
+To export your notebook as a PDF, first, restart your kernel and run all cells. Then, go to "File > Print Preview". Then, save a print preview of the webpage as a PDF. There are other ways to save a notebook as a PDF but they may require that you have additional packages installed on your computer, so this is likely the most straightforward.
 
 There are three "Project 3" assignments on Gradescope, one for each dataset. Make sure to submit to the correct one, and to tag your partner!
 

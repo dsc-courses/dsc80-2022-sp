@@ -16,7 +16,7 @@
           "**DIS 6**{: .label .label-disc } **Theoretical Foundations (due 5/15)**":
       - date: 2021-5-12
         events:
-          "**PROJ 3**{: .label .label-proj } **Exploratory Data Analysis (due 5/12, no Checkpoint)**":
+          "**PROJ 3**{: .label .label-proj } **[Exploratory Data Analysis (due 5/12, no Checkpoint)](../project3)**":
       - date: 2021-5-13
         events:
           "**LEC 20**{: .label .label-lecture } Feature Engineering and Modeling":
