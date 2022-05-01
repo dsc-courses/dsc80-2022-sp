@@ -33,7 +33,7 @@ This project contains no new material. Rather, it's a good opportunity to sharpe
 
 This project will be an open investigation into **a single dataset**. You will follow the steps given below:
 
-1. Pull the latest version of the [`dsc80-2022-sp`](https://github.com/dsc-courses/dsc80-2022-sp/) repo. Within the `projects/03-eda` folder, there is a `template.ipynb` notebook that you will use as a template for the project. If you delete the file or want another copy of the template, you can re-download it from [here](https://github.com/dsc-courses/dsc80-2022-sp/projects/03-eda/template.ipynb).
+1. Pull the latest version of the [`dsc80-2022-sp`](https://github.com/dsc-courses/dsc80-2022-sp/) repo. Within the `projects/03-eda` folder, there is a `template.ipynb` notebook that you will use as a template for the project. If you delete the file or want another copy of the template, you can re-download it from [here](https://github.com/dsc-courses/dsc80-2022-sp/blob/main/projects/03-eda/template.ipynb).
 2. Pick **one** of the three datasets described below:
     - [NYPD Civilian Complaints](#nypd-civilian-complaints-).
     - [Power Outages](#power-outages-).
