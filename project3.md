@@ -69,14 +69,14 @@ When doing the work that informs your summary, **you should write organized, rea
 * Do **not** include long DataFrame output; if you want to include specific data from a DataFrame in the writeup, display only the `head`.
 * Make sure to clearly explain what each component of your notebook **means**. Specifically:
     - All plots should have titles.
-    - All code cells should containing a comment describing how the code works.
+    - All code cells should contain a comment describing how the code works.
     - All code cells and plots should have a Markdown cell preceeding them describing how the code/plot is related to your analysis. 
 
 ### Requirement: Cleaning and EDA (Exploratory Data Analysis)
 
 * **Data Cleaning:** Clean the data appropriately for your question. For instance, you may need to replace data that should be missing with `NaN` or create new columns out of given ones (e.g. compute distances, scale data, or get time information from time stamps).
 * **Univariate Analysis:** Look at the distributions of relevant columns separately by using DataFrame operations and drawing appropriate plots.
-* **Bivariate Analysis:** Look at the statistics of pairs of columns to identify possible associations. For instance, you may create scatter plots and plot conditional distributions, or box-plots. Also, create pivot tables. These will be heloful in identifying interesting hypothesis tests!
+* **Bivariate Analysis:** Look at the statistics of pairs of columns to identify possible associations. For instance, you may create scatter plots and plot conditional distributions, or box-plots. Also, create pivot tables. These will be helpful in identifying interesting hypothesis tests!
 * **Interesting Aggregates:** Choose columns to groupby and examine aggregate statistics.
 
 ### Requirement: Assessment of Missingness
