@@ -4,7 +4,7 @@
     days:
       - date: 2021-5-2
         events:
-          "**LEC 15**{: .label .label-lecture } HTTP Requests and Parsing HTML":
+          "**LEC 15**{: .label .label-lecture } [Requests and Parsing HTML](resources/lectures/lec15/lec15.html)":
             "[Ch. 7.3](https://notes.dsc80.com/content/07/html.html)"
                 
           "**Lab 5**{: .label .label-lab } **[Imputation (due 5/2)](https://github.com/dsc-courses/dsc80-2022-sp/blob/main/labs/05-imputation/lab.ipynb)**":
