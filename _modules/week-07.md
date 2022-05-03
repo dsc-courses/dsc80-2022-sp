@@ -7,7 +7,7 @@
           "**LEC 18**{: .label .label-lecture } Natural Language Processing":
             "[Ch. 8.1-8.2](https://notes.dsc80.com/content/08/introduction.html)"
                 
-          "**Lab 6**{: .label .label-lab } **HTML (due 5/9)**":
+          "**Lab 6**{: .label .label-lab } **[HTML (due 5/9)](https://github.com/dsc-courses/dsc80-2022-sp/blob/main/labs/06-http/lab.ipynb)**":
       - date: 2021-5-11
         events:
           "**LEC 19**{: .label .label-lecture } Feature Engineering":
