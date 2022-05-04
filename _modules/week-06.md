@@ -13,7 +13,7 @@
           "**LEC 16**{: .label .label-lecture } Regular Expressions":
             "[Ch. 7.3](https://notes.dsc80.com/content/07/html.html), [8.1](https://notes.dsc80.com/content/08/patterns.html)"
                 
-          "**DIS 5**{: .label .label-disc } **Scraping and Regex (due 5/7)**":
+          "**DIS 5**{: .label .label-disc } **[Scraping (due 5/7)](https://github.com/dsc-courses/dsc80-2022-sp/tree/main/discussions/05-scraping)**":
       - date: 2021-5-6
         events:
           "**LEC 17**{: .label .label-lecture } More Regular Expressions and Text":
