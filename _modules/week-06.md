@@ -10,7 +10,7 @@
           "**Lab 5**{: .label .label-lab } **[Imputation (due 5/2)](https://github.com/dsc-courses/dsc80-2022-sp/blob/main/labs/05-imputation/lab.ipynb)**":
       - date: 2021-5-4
         events:
-          "**LEC 16**{: .label .label-lecture } Regular Expressions":
+          "**LEC 16**{: .label .label-lecture } [Parsing, Regular Expressions](resources/lectures/lec16/lec16.html)":
             "[Ch. 7.3](https://notes.dsc80.com/content/07/html.html), [8.1](https://notes.dsc80.com/content/08/patterns.html)"
                 
           "**DIS 5**{: .label .label-disc } **[Scraping (due 5/7)](https://github.com/dsc-courses/dsc80-2022-sp/tree/main/discussions/05-scraping)**":
