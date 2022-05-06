@@ -16,7 +16,7 @@
           "**DIS 5**{: .label .label-disc } **[Scraping (due 5/7)](https://github.com/dsc-courses/dsc80-2022-sp/tree/main/discussions/05-scraping)**":
       - date: 2021-5-6
         events:
-          "**LEC 17**{: .label .label-lecture } More Regular Expressions and Text":
+          "**LEC 17**{: .label .label-lecture } [Regular Expressions](resources/lectures/lec17/lec17.html)":
             "[Ch. 8.1-8.2](https://notes.dsc80.com/content/08/introduction.html)"
                 
 ---
