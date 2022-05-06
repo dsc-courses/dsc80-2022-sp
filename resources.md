@@ -46,7 +46,14 @@ Note that topic coverage and ordering has changed over time, so the content in o
 
 ---
 
+## Regular Expressions
+
+- [regex101.com](https://regex101.com), a helpful site to have open while writing regular expressions.
+- Python [`re` library documentation](https://docs.python.org/3/library/re.html) and [how-to](https://docs.python.org/3/howto/regex.html).
+- [regex "cheat sheet"](https://dsc80.com/resources/other/berkeley-regex-reference.pdf) (taken from [here](https://ds100.org/sp22/resources/)).
+
+---
+
 ## Other Resources
 - [pandastutor.com](https://pandastutor.com), the equivalent of [pythontutor.com](https://pythontutor.com) for DataFrame manipulation.
-- [regex101.com](https://regex101.com), a helpful site to have open while writing regular expressions.
 - [jwilber.me/permutationtest](https://www.jwilber.me/permutationtest/), a great visual explanation of permutation testing.
