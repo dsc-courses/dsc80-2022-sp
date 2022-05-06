@@ -3,7 +3,7 @@
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>lec17</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>lec17-for-html</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
 
@@ -14112,11 +14112,11 @@ To match only a positive even number of <code>'l'</code>s, we'd need to first "f
     ✅ Click here to see the answer <b>after</b> you've tried it yourself at <a href='https://regex101.com'>regex101.com</a>.
 </summary>
 
-Possible answers: <code>bi(ll(ll)\*|gg(gg)\*)y</code> or <code>bill(ll)\*y|bigg(gg)\*y</code>.
+Possible answers: <code>bi(ll(ll)*|gg(gg)*)y</code> or <code>bill(ll)*y|bigg(gg)*y</code>.
 
 <br>
 
-Note, <code>bill(ll)\*|gg(gg)\*y</code> is <b>not</b> a valid answer! This is because "concatenation" comes before "or" in the order of operations. This regular expression would match strings that match <code>bill(ll)\*</code>, like <code>'billll'</code>, OR strings that match <code>gg(gg)\*y</code>, like <code>'ggy'</code>.
+Note, <code>bill(ll)*|gg(gg)*y</code> is <b>not</b> a valid answer! This is because "concatenation" comes before "or" in the order of operations. This regular expression would match strings that match <code>bill(ll)*</code>, like <code>'billll'</code>, OR strings that match <code>gg(gg)*y</code>, like <code>'ggy'</code>.
 
 
 </details>
@@ -14183,11 +14183,11 @@ Note, <code>bill(ll)\*|gg(gg)\*y</code> is <b>not</b> a valid answer! This is be
     ✅ Click here to see the answer <b>after</b> you've tried it yourself at <a href='https://regex101.com'>regex101.com</a>.
 </summary>
 
-One answer: <code>[a-z]\*(aa|ee|ii|oo|uu)[a-z]\*</code>
+One answer: <code>[a-z]*(aa|ee|ii|oo|uu)[a-z]*</code>
 
 <br>
 
-This regular expression matches strings of lowercase characters that have <code>'aa'</code>, <code>'ee'</code>, <code>'ii'</code>, <code>'oo'</code>, or <code>'uu'</code> in them anywhere. <code>[a-z]\*</code> means "zero or more of any lowercase characters"; essentially we are saying it doesn't matter what letters come before or after the double vowels, as long as the double vowels exist somewhere.
+This regular expression matches strings of lowercase characters that have <code>'aa'</code>, <code>'ee'</code>, <code>'ii'</code>, <code>'oo'</code>, or <code>'uu'</code> in them anywhere. <code>[a-z]*</code> means "zero or more of any lowercase characters"; essentially we are saying it doesn't matter what letters come before or after the double vowels, as long as the double vowels exist somewhere.
 
 
 </details>
@@ -14202,17 +14202,17 @@ This regular expression matches strings of lowercase characters that have <code>
     ✅ Click here to see the answer <b>after</b> you've tried it yourself at <a href='https://regex101.com'>regex101.com</a>.
 </summary>
 
-One answer: <code>(.\*[a-z].\*[0-9].\*)|(.\*[0-9].\*[a-z].\*)</code>
+One answer: <code>(.*[a-z].*[0-9].*)|(.*[0-9].*[a-z].*)</code>
 
 <br>
 
 We can break the above regex into two parts – everything before the `|`, and everything after the `|`.
 
-The first part, <code>.\*[a-z].\*[0-9].\*</code>, matches strings in which there is at least one lowercase character and at least one digit, with the lowercase character coming first.
+The first part, <code>.*[a-z].*[0-9].*</code>, matches strings in which there is at least one lowercase character and at least one digit, with the lowercase character coming first.
 
-The second part, <code>.\*[0-9].\*[a-z].\*</code>, matches strings in which there is at least one lowercase character and at least one digit, with the digit coming first.
+The second part, <code>.*[0-9].*[a-z].*</code>, matches strings in which there is at least one lowercase character and at least one digit, with the digit coming first.
 
-Note, the <code>.\*</code> between the digit and letter classes is needed in the event the string has non-digit and non-letter characters.
+Note, the <code>.*</code> between the digit and letter classes is needed in the event the string has non-digit and non-letter characters.
 
 
 </details>
