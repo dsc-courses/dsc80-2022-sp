@@ -4,7 +4,7 @@
     days:
       - date: 2021-5-9
         events:
-          "**LEC 18**{: .label .label-lecture } Natural Language Processing":
+          "**LEC 18**{: .label .label-lecture } [Text as Data](resources/lectures/lec18/lec18.html)":
             "[Ch. 8.1-8.2](https://notes.dsc80.com/content/08/introduction.html)"
                 
           "**Lab 6**{: .label .label-lab } **[APIs and Web Scraping (due 5/9)](https://github.com/dsc-courses/dsc80-2022-sp/blob/main/labs/06-http/lab.ipynb)**":
