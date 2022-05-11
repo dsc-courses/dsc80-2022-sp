@@ -10,8 +10,8 @@
           "**Lab 6**{: .label .label-lab } **[APIs and Web Scraping (due 5/9)](https://github.com/dsc-courses/dsc80-2022-sp/blob/main/labs/06-http/lab.ipynb)**":
       - date: 2021-5-11
         events:
-          "**LEC 19**{: .label .label-lecture } Text as Data, Continued":
-            "[Ch. 9.1](https://notes.dsc80.com/content/09/features.html)"
+          "**LEC 19**{: .label .label-lecture } [Text as Data, Continued](resources/lectures/lec19/lec19.html)":
+            "[Ch. 8.1-8.2](https://notes.dsc80.com/content/08/introduction.html)"
                 
           "**DIS 6**{: .label .label-disc } **Theoretical Foundations (due 5/15)**":
       - date: 2021-5-12
