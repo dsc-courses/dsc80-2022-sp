@@ -13,7 +13,7 @@
           "**LEC 19**{: .label .label-lecture } [Text as Data, Continued](resources/lectures/lec19/lec19.html)":
             "[Ch. 8.1-8.2](https://notes.dsc80.com/content/08/introduction.html)"
                 
-          "**DIS 6**{: .label .label-disc } **Theoretical Foundations (due 5/15)**":
+          "**DIS 6**{: .label .label-disc } **[Regex and Text (due 5/14)](https://github.com/dsc-courses/dsc80-2022-sp/tree/main/discussions/06-regex-nlp)**":
       - date: 2021-5-12
         events:
           "**PROJ 3**{: .label .label-proj } **[Exploratory Data Analysis (due 5/12, no Checkpoint)](../project3)**":
