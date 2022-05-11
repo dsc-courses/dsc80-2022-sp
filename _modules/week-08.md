@@ -7,7 +7,7 @@
           "**LEC 21**{: .label .label-lecture } Pipelines":
             "[Ch. 10.2](https://notes.dsc80.com/content/10/model-building.html)"
                 
-          "**Lab 7**{: .label .label-lab } **Regular Expressions (due 5/16)**":
+          "**Lab 7**{: .label .label-lab } **[Regular Expressions (due 5/16)](https://github.com/dsc-courses/dsc80-2022-sp/blob/main/labs/07-regex/lab.ipynb)**":
       - date: 2021-5-18
         events:
           "**LEC 22**{: .label .label-lecture } Bias and Variance":
