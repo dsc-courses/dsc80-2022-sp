@@ -19,7 +19,7 @@
           "**PROJ 3**{: .label .label-proj } **[Exploratory Data Analysis (due 5/12, no Checkpoint)](../project3)**":
       - date: 2021-5-13
         events:
-          "**LEC 20**{: .label .label-lecture } Feature Engineering":
-            "[Ch. 9.2](https://notes.dsc80.com/content/09/data-pipelines.html), [10.1](https://notes.dsc80.com/content/10/intro-modeling.html)"
+          "**LEC 20**{: .label .label-lecture } [Features](resources/lectures/lec20/lec20.html)":
+            "[Ch. 9.1](https://notes.dsc80.com/content/09/features.html)"
                 
 ---
