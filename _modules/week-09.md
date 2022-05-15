@@ -12,7 +12,7 @@
           "**DIS 8**{: .label .label-disc } **Model Evaluation (due 5/28)**":
       - date: 2021-5-26
         events:
-          "**PROJ 4**{: .label .label-proj } **Language Models (due 5/26)**":
+          "**PROJ 4**{: .label .label-proj } **[Language Models 🗣 (due 5/26)](https://github.com/dsc-courses/dsc80-2022-sp/blob/main/projects/04-language_models/project.ipynb)**":
       - date: 2021-5-27
         events:
           "**LEC 26**{: .label .label-lecture } More Model Evaluation":
