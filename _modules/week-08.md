@@ -4,8 +4,8 @@
     days:
       - date: 2021-5-16
         events:
-          "**LEC 21**{: .label .label-lecture } Feature Engineering":
-            "[Ch. 10.2](https://notes.dsc80.com/content/10/model-building.html)"
+          "**LEC 21**{: .label .label-lecture } [Feature Engineering and Modeling](resources/lectures/lec21/lec21.html)":
+            "[Ch. 10.1](https://notes.dsc80.com/content/10/intro-modeling.html)"
                 
           "**Lab 7**{: .label .label-lab } **[Regular Expressions (due 5/16)](https://github.com/dsc-courses/dsc80-2022-sp/blob/main/labs/07-regex/lab.ipynb)**":
       - date: 2021-5-18
