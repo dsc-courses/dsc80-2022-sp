@@ -13,7 +13,7 @@
           "**LEC 22**{: .label .label-lecture } [Modeling and `sklearn`](resources/lectures/lec22/lec22.html)":
             "[Ch. 10.2](https://notes.dsc80.com/content/10/model-building.html)"
                 
-          "**DIS 7**{: .label .label-disc } **Features and Pipelines (due 5/21)**":
+          "**DIS 7**{: .label .label-disc } **[Linear Regression and Feature Engineering (due 5/21)](https://github.com/dsc-courses/dsc80-2022-sp/tree/main/discussions/07-linear-reg-features)**":
       - date: 2021-5-19
         events:
           "**PROJ 4**{: .label .label-proj } **[Language Models 🗣 (Checkpoint due 5/19, Project due 5/26)](https://github.com/dsc-courses/dsc80-2022-sp/blob/main/projects/04-language_models/project.ipynb)**":
