@@ -10,7 +10,7 @@
           "**Lab 7**{: .label .label-lab } **[Regular Expressions (due 5/16)](https://github.com/dsc-courses/dsc80-2022-sp/blob/main/labs/07-regex/lab.ipynb)**":
       - date: 2021-5-18
         events:
-          "**LEC 22**{: .label .label-lecture } [Modeling and `sklearn`]":
+          "**LEC 22**{: .label .label-lecture } [Modeling and `sklearn`](resources/lectures/lec22/lec22.html)":
             "[Ch. 10.2](https://notes.dsc80.com/content/10/model-building.html)"
                 
           "**DIS 7**{: .label .label-disc } **Features and Pipelines (due 5/21)**":
