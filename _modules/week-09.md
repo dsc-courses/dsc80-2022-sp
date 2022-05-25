@@ -9,7 +9,7 @@
       - date: 2021-5-25
         events:
           "**LEC 25**{: .label .label-lecture } Examples":
-          "**DIS 8**{: .label .label-disc } **Model Evaluation (due 5/28)**":
+          "**DIS 8**{: .label .label-disc } **[`sklearn` (due 5/28)](https://github.com/dsc-courses/dsc80-2022-sp/tree/main/discussions/08-sklearn)**":
       - date: 2021-5-26
         events:
           "**PROJ 4**{: .label .label-proj } **[Language Models 🗣 (due 5/26)](https://github.com/dsc-courses/dsc80-2022-sp/blob/main/projects/04-language_models/project.ipynb)**":
