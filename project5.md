@@ -11,7 +11,7 @@ nav_exclude: true
 # Project 5 – Model Building 🛠
 {:.no_toc}
 
-### Due Date: Thursday, June 8th at 11:59PM (NO SLIP DAYS!)
+### Due Date: Thursday, June 9th at 11:59PM (NO SLIP DAYS!)
 {:.no_toc}
 
 ## Table of contents
@@ -41,7 +41,7 @@ You will follow the steps given below. **You should summarize each of these step
 ### Step 1 – Framing the Problem (15%)
 
 Clearly state and frame a prediction problem. Explicitly mention:
-- The type of prediction problem (classification or regression).
+- The type of prediction problem (classification or regression). If you are building a classifier, make sure to state whether you are performing binary classification or multiclass classification.
 - The response variable (i.e. the variable you are predicting) and why you chose it.
 - The metric you are using to evaluate your model and why you chose it over other suitable metrics (e.g. accuracy vs. F1-score).
 
