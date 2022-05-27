@@ -26,7 +26,7 @@ nav_exclude: true
 
 Welcome to Project 5, the final assignment of the quarter! 👋
 
-**Project 5 is due on Thursday, June 8th at 11:59PM. This is a hard deadline; you may NOT use slip days on this project.** (This is because we need to start grading projects right when you submit them, so that there is enough time for you to submit regrade requests before we submit grades to campus.)
+**Project 5 is due on Thursday, June 8th at 11:59PM. This is a hard deadline; you may NOT use slip days on this project.** (This is because we need to start grading projects right when you turn them in, so that there is enough time for you to make regrade requests before we submit grades to campus.) Note that we will not be able to hold many office hours during Finals Week, so make sure to start early.
 
 Like Project 3, there is no checkpoint. **Since this project is only graded on the output displayed in a notebook (no `.py` file will be submitted)**, you will need to make sure you submit a "readable report" that graders can follow.
 
@@ -36,28 +36,28 @@ Like Project 3, there is no checkpoint. **Since this project is only graded on t
 
 In Project 5, you will conduct an open-ended investigation into the dataset you chose for [Project 3](https://dsc80.com/project3) (NYPD, Stocks, or Outages). **Specifically, you will pose a prediction problem and train a model to solve it.** Use the [Example Prediction Problems](#example-prediction-problems) section for inspiration.
 
-You will follow the steps given below. **You should summarize each of these steps using Markdown cells in the "Summary of Findings" section of your notebook.** A template version of the notebook you must submit can be found here TBD.
+You will follow the steps given below. **You should summarize each of these steps using Markdown cells in the "Summary of Findings" section of your notebook.** [A template version of the notebook you must submit can be found in our GitHub repo](https://github.com/dsc-courses/dsc80-2022-sp/blob/main/projects/05-prediction/template.ipynb).
 
-### Step 1 – Framing the Problem
+### Step 1 – Framing the Problem (15%)
 
 Clearly state and frame a prediction problem. Explicitly mention:
 - The type of prediction problem (classification or regression).
 - The response variable (i.e. the variable you are predicting) and why you chose it.
 - The metric you are using to evaluate your model and why you chose it over other suitable metrics (e.g. accuracy vs. F1-score).
 
-Make sure to justify what information you would know at the "time of prediction" and to only train your model using those features.
+Make sure to justify what information you would know at the "time of prediction" and to only train your model using those features. (For instance, if we wanted to predict your final exam grade, we couldn't use your Project 5 grade, because Project 5 is only due after the final exam!)
 
-### Step 2 – Baseline Model
+### Step 2 – Baseline Model (35%)
 
 Train a "baseline model" for your prediction task that uses at least two features. You can leave numerical features as-is, but you'll need to take care of categorical columns using an appropriate encoding. Implement all steps (feature transforms and model training) in a `sklearn` `Pipeline`.
 
 In your Summary of Findings, make sure to be clear about:
-- The number of features in your model, including how many are quantitative, ordinal, and nominal.
+- The features in your model, including how many are quantitative, ordinal, and nominal, and how you performed any necessary encodings.
 - The performance of your model, and whether or not you believe your current model is "good" and why. **Both now and in Step 3, make sure to evaluate your model's ability to generalize to unseen data!**
 
 Note, there is no "required" performance metric that your baseline model needs to achieve.
 
-### Step 3 – Final Model
+### Step 3 – Final Model (35%)
 
 Create a "final" model that improves upon the "baseline" model you created in Step 2. Do so by engineering at least two new features from the data, on top of any categorical encodings you performed in Step 2. (For instance, you may use `StandardScaler` or `QuantileTransformer` transformers on quantitative columns.) Again, implement all steps in a `sklearn` `Pipeline`.  
 
@@ -67,11 +67,11 @@ In your Summary of Findings, make sure to be clear about:
 - The features you added and **why** they are good for the data and prediction task.
 - The model you chose, the hyperparameters that ended up performing the best, and the method you used to select a model.
 
-Note, you will not be graded on "how much" your model improved from Step 2 to Step 3. What you will be graded on is your thoughtfulness and effort in creating features, along with the other points above.
+Note, you will not be graded on "how much" your model improved from Step 2 to Step 3. What you will be graded on is on whether or not your model improved, as well as your thoughtfulness and effort in creating features, along with the other points above.
 
-### Step 4 – Fairness Analysis
+### Step 4 – Fairness Analysis (15%)
 
-Perform a "fairness analysis" of your model. That is, try and answer the question "does my model perform worse for individuals in Group X than it does for individuals in Group Y?", for an interesting choice of X and Y.
+Perform a "fairness analysis" of your final model from Step 3. That is, try and answer the question "does my model perform worse for individuals in Group X than it does for individuals in Group Y?", for an interesting choice of X and Y.
 
 As always, when comparing some quantitative attribute (in this case, something like precision or RMSE) across two groups, we use a **permutation test**. Let's illustrate how this works with an example. Let's suppose we have a sample voter dataset with columns `'Name'`, `'Age'`, and `'Voted'`, among others. We build a classifier that predicts whether someone voted (`1`) or didn't (`0`).
 
@@ -79,9 +79,9 @@ Here, we'll say our two groups are
 - "young people", people younger than 40
 - "old people", people older than 40
 
-Note that in this example, we manually created these groups by **binarizing** the `'Age'` column in our dataset, and that's fine.
+Note that in this example, we manually created these groups by **binarizing** the `'Age'` column in our dataset, and that's fine. (Remember, the `Binarizer` transformer with a threshold of 40 can do this for us.)
 
-For our parity measure, we'll choose precision. (In Lecture 26 we looked at other parity measures; choose the one that is most appropriate to your prediction task. If you built a regression model, you cannot use classification metrics like precision or recall; instead, you must use RMSE or $$R^2$$.)
+For our evaluation metric, we'll choose precision. (In Lecture 26 we looked at other evaluation metrics for classifiers; choose the one that is most appropriate to your prediction task. If you built a regression model, you cannot use classification metrics like precision or recall; instead, you must use RMSE or $$R^2$$.)
 
 Now, we must perform a permutation test. Before doing so, we must clearly state a null and an alternative hypothesis. 
 
@@ -89,7 +89,9 @@ Now, we must perform a permutation test. Before doing so, we must clearly state 
 
 - Alternative Hypothesis: Our model is unfair. Its precision for young people is lower than its precision for old people.
 
-From here, you should be able to implement the necessary permutation test. The only other guidance we will provide you with is that you should **not** be retraining your model repeatedly; only use your final fitted model from Step 3.
+From here, you should be able to implement the necessary permutation test. The only other guidance we will provide you with is that you should **not** be modifying your model to produce different results when computing test statistics; use only your final fitted model from Step 3.
+
+Make sure to clearly state your hypotheses, a p-value, and your conclusion of the test based on the p-value.
 
 ---
 
@@ -121,7 +123,7 @@ Below, we provide example prediction problems for all three datasets. However, d
 
 ## Grading and Submission
 
-Unlike in Project 3, we will **not** be providing you with the exact rubric that we will evaluate your report on. This is because an exact rubric would specify exactly what you need to do to build a model, but figuring out what to do is a large part of the project.
+Unlike in Project 3, we will **not** be providing you with the exact rubric that we will evaluate your report on. This is because an exact rubric would specify exactly what you need to do to build a model, but figuring out what to do is a large part of the project. (However, you can see how much each step is worth in the headings above.)
 
 With that said, **you will be graded on addressing all of the above requirements in your summary.** You should have your code included at bottom in a clearly done, commented fashion. Upon reading the summary, it should be easy for the grader to glance down at the code to see the supporting work.
 
