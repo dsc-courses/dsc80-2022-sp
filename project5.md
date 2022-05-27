@@ -81,7 +81,7 @@ Here, we'll say our two groups are
 
 Note that in this example, we manually created these groups by **binarizing** the `'Age'` column in our dataset, and that's fine. (Remember, the `Binarizer` transformer with a threshold of 40 can do this for us.)
 
-For our evaluation metric, we'll choose precision. (In Lecture 26 we looked at other evaluation metrics for classifiers; choose the one that is most appropriate to your prediction task. If you built a regression model, you cannot use classification metrics like precision or recall; instead, you must use RMSE or $$R^2$$.)
+For our evaluation metric, we'll choose precision. (In Lectures 26 and 27 we looked at other evaluation metrics and related parity measures for classifiers; choose the one that is most appropriate to your prediction task. If you built a regression model, you cannot use classification metrics like precision or recall; instead, you must use RMSE or $$R^2$$.)
 
 Now, we must perform a permutation test. Before doing so, we must clearly state a null and an alternative hypothesis. 
 
