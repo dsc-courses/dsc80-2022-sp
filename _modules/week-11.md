@@ -8,5 +8,5 @@
           "**Exam**{: .label .label-exam } **Final Exam (11:30AM-2:30PM, in-person)**":
       - date: 2021-6-9
         events:
-          "**PROJ 5**{: .label .label-proj } **[Model Building 🛠 (due 6/9, no Checkpoint)]()**":
+          "**PROJ 5**{: .label .label-proj } **[Model Building 🛠 (due 6/9, no Checkpoint or Slip Days)](../project5)**":
 ---
