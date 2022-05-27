@@ -15,5 +15,5 @@
           "**PROJ 4**{: .label .label-proj } **[Language Models 🗣 (due 5/26)](https://github.com/dsc-courses/dsc80-2022-sp/blob/main/projects/04-language_models/project.ipynb)**":
       - date: 2021-5-27
         events:
-          "**LEC 26**{: .label .label-lecture } More Examples":
+          "**LEC 26**{: .label .label-lecture } [Examples and Classifier Evaluation](resources/lectures/lec26/lec26.html)":
 ---
