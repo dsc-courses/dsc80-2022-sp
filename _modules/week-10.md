@@ -14,5 +14,5 @@
           "**DIS 9**{: .label .label-disc } **Review**":
       - date: 2021-6-3
         events:
-          "**LEC 28**{: .label .label-lecture } Fairness, Conclusion":
+          "**LEC 28**{: .label .label-lecture } [Fairness, Conclusion](resources/lectures/lec28/lec28.html)":
 ---
